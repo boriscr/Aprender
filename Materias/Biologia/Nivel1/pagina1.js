@@ -1,39 +1,68 @@
 document.getElementById("level").textContent = "Nivel 1";
-document.getElementById("name-title").textContent = "Conquista y Colonización";
+document.getElementById("name-title").textContent = "Conceptos de BIOLOGÍA básica";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/XLYB-GRE6Fk"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/u7i4TMql3MM"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
-    {
-      question: "¿En que siglo se inició la conquista de América?",
-      options: ["XV", "XVI", "XIV", "XII"],
-      correctAnswer: 0
-    },
-    {
-      question: "¿Quien inició la conquista de América?",
-      options: ["Napoleón Bonaparte", "Cristóbal Colón", "Alejandro Magno", "Simón Bolívar"],
-      correctAnswer: 1
-    },
-    {
-      question: "Cristóbal Colón llegó por primera vez al continente americano en el año...",
-      options: ["1492", "1592", "1482", "1490"],
-      correctAnswer: 0
-    },
-    {
-        question: "Conquista de Mexico:",
-        options: ["1518", "1815", "1519", "1515"],
-        correctAnswer: 2
-      },
-      {
-        question: "Conquista de Mexico:",
-        options: ["1518", "1815", "1519", "1515"],
-        correctAnswer: 2
-      },
-    // Agregar más preguntas...
-  ];
+const questions = [
+  {
+    question: "¿Qué características de las células son utilizadas para clasificar a los seres vivos en reinos?",
+    options: [
+      "Tipo de célula (procariota o eucariota)",
+      "Forma de reproducción (sexual o asexual)",
+      "Número de células (unicelulares o pluricelulares)",
+      "Obtención de energía y materia orgánica",
+      "Todas las anteriores"
+    ],
+    correctAnswer: 4
+  },
+  {
+    question: "¿Cuál de los siguientes reinos utiliza la luz como fuente de energía y es capaz de transformar la materia inorgánica en orgánica?",
+    options: [
+      "Reino de las plantas",
+      "Reino de los hongos",
+      "Reino de los animales",
+      "Reino de las bacterias",
+      "Reino de los protistas"
+    ],
+    correctAnswer: 0
+  },
+  {
+    question: "¿Cuál de los siguientes reinos utiliza la luz como fuente de energía pero no puede transformar la materia inorgánica en orgánica?",
+    options: [
+      "Reino de las plantas",
+      "Reino de los hongos",
+      "Reino de los animales",
+      "Reino de las bacterias",
+      "Reino de los protistas"
+    ],
+    correctAnswer: 1
+  },
+  {
+    question: "¿Cuál de los siguientes reinos no puede utilizar la energía de la luz y obtiene la materia orgánica de otros seres vivos?",
+    options: [
+      "Reino de las plantas",
+      "Reino de los hongos",
+      "Reino de los animales",
+      "Reino de las bacterias",
+      "Reino de los protistas"
+    ],
+    correctAnswer: 2
+  },
+  {
+    question: "¿Cuál de los siguientes reinos es capaz de transformar la materia inorgánica en orgánica pero no puede utilizar la energía de la luz?",
+    options: [
+      "Reino de las plantas",
+      "Reino de los hongos",
+      "Reino de los animales",
+      "Reino de las bacterias",
+      "Reino de los protistas"
+    ],
+    correctAnswer: 3
+  }
+];
 
 //################################################################
 //Botones de navegacion

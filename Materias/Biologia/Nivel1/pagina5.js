@@ -1,62 +1,62 @@
 document.getElementById("level").textContent = "Nivel 1";
-document.getElementById("name-title").textContent = "Historia de los billetes Argentinos";
+document.getElementById("name-title").textContent = "ADN, Cromosomas y Genes";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/OSNQmq1-dGo"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/tfDRCSjqqvQ"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue la primera moneda de circulación masiva en Argentina?",
+    question: "¿Cuál es la biomolécula que almacena toda la información hereditaria en la célula?",
     options: [
-      "Peso moneda corriente",
-      "Peso fuerte",
-      "Peso ley 18.188",
-      "Austral"
+      "Proteínas",
+      "Azúcares",
+      "Ácido nucleico",
+      "Grupos fosfato",
     ],
-    correctAnswer: 0
+    correctAnswer: 2,
   },
   {
-    question: "¿Cuál fue la moneda que estuvo vigente desde 1826 hasta 1881 en Argentina?",
+    question: "¿Qué estructuras condensadas almacenan la información genética en las células eucariotas?",
     options: [
-      "Peso fuerte",
-      "Peso moneda corriente",
-      "Peso ley 18.188",
-      "Austral"
+      "Cromatina",
+      "Nucleótidos",
+      "Organelos",
+      "Histonas",
     ],
-    correctAnswer: 1
+    correctAnswer: 0,
   },
   {
-    question: "¿Qué ley de unificación monetaria se sancionó durante la presidencia de Julio Argentino Roca?",
+    question: "¿Cuántos pares de cromosomas tenemos en total?",
     options: [
-      "Ley 1130",
-      "Ley 2216",
-      "Ley 890",
-      "Ley 22.707"
+      "23",
+      "46",
+      "32",
+      "12",
     ],
-    correctAnswer: 0
+    correctAnswer: 1,
   },
   {
-    question: "¿Cuál fue el primer billete íntegramente impreso en Argentina?",
+    question: "¿Cómo se llaman los segmentos cortos de ADN que contienen información precisa sobre las características de un ser vivo?",
     options: [
-      "Peso moneda corriente",
-      "Austral",
-      "Peso ley 18.188",
-      "Peso argentino"
+      "Histonas",
+      "Nucleótidos",
+      "Cromosomas",
+      "Genes",
     ],
-    correctAnswer: 1
+    correctAnswer: 3,
   },
   {
-    question: "¿Cuál fue la moneda emitida en reemplazo del austral en 1991?",
+    question: "¿Cómo se denomina el lugar que ocupa un gen en el cromosoma?",
     options: [
-      "Austral",
-      "Peso fuerte",
-      "Peso argentino",
-      "Peso"
+      "Cromatina",
+      "Locus",
+      "Núcleo",
+      "And",
     ],
-    correctAnswer: 2
-  }
+    correctAnswer: 1,
+  },
 ];
 
 //################################################################

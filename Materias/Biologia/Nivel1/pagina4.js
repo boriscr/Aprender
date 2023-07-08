@@ -1,66 +1,61 @@
 document.getElementById("level").textContent = "Nivel 1";
-document.getElementById("name-title").textContent = "¿Por qué sucedió el Golpe de Estado?";
+document.getElementById("name-title").textContent = "La Célula EUCARIOTA";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/sAwl4Mudi4U"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/Q4niskgHHHM"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue la causa del fallecimiento del presidente Juan Domingo Perón?",
+    question: "¿Cuál es la principal diferencia entre una célula procariota y una célula eucariota?",
     options: [
-      "Paro cardíaco",
-      "Enfermedad respiratoria",
-      "Accidente automovilístico",
-      "Envenenamiento",
-      "Suicidio"
+      "a) Las células procariotas tienen membrana nuclear",
+      "b) Las células eucariotas son unicelulares",
+      "c) Las células procariotas tienen núcleo y orgánulos celulares",
+      "d) Las células eucariotas se dividen por mitosis"
     ],
-    correctAnswer: 0
+    correctAnswer: 2 // La respuesta correcta es la opción c) Las células procariotas tienen orgánulos
   },
   {
-    question: "¿Quién se convirtió en la sucesora de Juan Domingo Perón como presidenta de Argentina?",
+    question: "¿Qué orgánulo se encuentra en las células eucariotas y no en las células animales?",
     options: [
-      "María Estela Martínez de Perón",
-      "Cristina Fernández de Kirchner",
-      "Eva Perón",
-      "Isabel Allende",
-      "Michelle Bachelet"
+      "a) Cloroplasto",
+      "b) Mitocondria",
+      "c) Lisosoma",
+      "d) Ribosoma"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Cloroplasto
   },
   {
-    question: "¿Cuál era la principal amenaza que enfrentaba Isabel Perón durante su presidencia?",
+    question: "¿Qué función desempeñan las mitocondrias en las células eucariotas?",
     options: [
-      "Revolución de corte socialista",
-      "Invasión extranjera",
-      "Crisis económica",
-      "Conflictos territoriales",
-      "Desastres naturales"
+      "a) Síntesis de proteínas",
+      "b) Almacenamiento de agua",
+      "c) Producción de energía",
+      "d) Digestión de nutrientes"
     ],
-    correctAnswer: 0
+    correctAnswer: 2 // La respuesta correcta es la opción c) Producción de energía
   },
   {
-    question: "¿Qué medida tomó Isabel Perón para intentar contener la situación de inestabilidad en el país?",
+    question: "¿Cuál es la principal diferencia entre una célula eucariota animal y una célula eucariota vegetal?",
     options: [
-      "Buscar una coalición nacional con diferentes sectores de la sociedad",
-      "Implementar políticas de austeridad",
-      "Promover la libertad de expresión",
-      "Crear programas de empleo",
-      "Establecer un régimen autoritario"
+      "a) Las células animales tienen cloroplastos",
+      "b) Las células vegetales tienen vacuolas más grandes",
+      "c) Las células animales tienen pared celular",
+      "d) Las células vegetales se dividen por mitosis"
     ],
-    correctAnswer: 0
+    correctAnswer: 1 // La respuesta correcta es la opción b) Las células vegetales tienen vacuolas más grandes
   },
   {
-    question: "¿Qué sucedió el 24 de marzo de 1976 en Argentina?",
+    question: "¿Qué proceso es exclusivo de las células vegetales?",
     options: [
-      "Se produjo un golpe militar y se estableció la junta militar en el poder",
-      "Se celebraron elecciones democráticas",
-      "Se proclamó la independencia del país",
-      "Se firmó un tratado de paz con un país vecino",
-      "Se declaró un estado de emergencia por desastre natural"
+      "a) Fotosíntesis",
+      "b) Respiración celular",
+      "c) Reproducción sexual",
+      "d) Excreción de desechos"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Fotosíntesis
   }
 ];
 

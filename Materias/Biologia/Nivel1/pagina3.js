@@ -1,64 +1,64 @@
 document.getElementById("level").textContent = "Nivel 1";
-document.getElementById("name-title").textContent = "Organización Nacional";
+document.getElementById("name-title").textContent = "La Célula PROCARIOTA";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/W_3D1btuNTo"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/Qo7acTpLUts"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
-    {
-      question: "Bajo qué régimen se rigieron los territorios que conformaban la Confederación Argentina hasta el año 1852?",
-      options: [
-        "Régimen federal rosista",
-        "Régimen centralista de Buenos Aires",
-        "Régimen unitario liderado por Mitre",
-        "Régimen democrático de Urquiza"
-      ],
-      correctAnswer: 0
-    },
-    {
-      question: "Quién se opuso a la sanción de una constitución y a la existencia de un gobierno central durante el período rosista?",
-      options: [
-        "Juan Manuel de Rosas",
-        "Justo José de Urquiza",
-        "Valentín Alsina",
-        "Vicente López y Planes"
-      ],
-      correctAnswer: 0
-    },
-    {
-      question: "Qué obstaculizó el comercio de las provincias del litoral durante el régimen rosista?",
-      options: [
-        "La falta de infraestructura vial",
-        "La guerra contra los indígenas",
-        "La libre navegación de los ríos interiores",
-        "La participación de Buenos Aires en la Confederación"
-      ],
-      correctAnswer: 2
-    },
-    {
-      question: "Quién encabezó la alianza que derrotó a las fuerzas de Buenos Aires en la batalla de Caseros en 1852?",
-      options: [
-        "Juan Manuel de Rosas",
-        "Justo José de Urquiza",
-        "Valentín Alsina",
-        "Vicente López y Planes"
-      ],
-      correctAnswer: 1
-    },
-    {
-      question: "Qué evento marcó el fin del gobierno rosista y el comienzo de la Organización Nacional en Argentina?",
-      options: [
-        "La sanción de una nueva constitución",
-        "La firma del Pacto de San Nicolás",
-        "La batalla de Pavón",
-        "El levantamiento de Buenos Aires"
-      ],
-      correctAnswer: 1
-    }
-  ];
-  
+  {
+    question: "¿Cuál es la unidad fundamental de la vida?",
+    options: [
+      "Un organismo unicelular",
+      "Una célula procariota",
+      "La célula",
+      "Un organismo pluricelular"
+    ],
+    correctAnswer: 2
+  },
+  {
+    question: "¿Qué tipo de célula está formada por una sola célula?",
+    options: [
+      "Célula procariota",
+      "Célula eucariota",
+      "Organismo unicelular",
+      "Organismo pluricelular"
+    ],
+    correctAnswer: 2
+  },
+  {
+    question: "¿Cuál es la función principal de la membrana plasmática en una célula?",
+    options: [
+      "Regular el ingreso y salida de sustancias",
+      "Producir energía",
+      "Controlar la reproducción celular",
+      "Transportar nutrientes"
+    ],
+    correctAnswer: 0
+  },
+  {
+    question: "¿Cuál es la diferencia principal entre células procariotas y células eucariotas?",
+    options: [
+      "Las células procariotas tienen membrana nuclear",
+      "Las células eucariotas tienen orgánulos",
+      "Las células procariotas son unicelulares",
+      "Las células eucariotas se dividen por mitosis"
+    ],
+    correctAnswer: 1
+  },
+  {
+    question: "¿Cuál es el tipo de restaurante que representa una célula eucariota vegetal?",
+    options: [
+      "Restaurante fast food",
+      "Restaurante de comida gourmet",
+      "Restaurante de animales",
+      "Restaurante vegetariano"
+    ],
+    correctAnswer: 3
+  }
+];
+
 //################################################################
 //Botones de navegacion
   function backPage() {
