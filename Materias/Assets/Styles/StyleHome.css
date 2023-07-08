@@ -1,0 +1,9 @@
+a{
+    background-color: rgb(255, 255, 255);
+padding: 3%;
+width: 10%;
+border-radius: 20px;
+}
+.nivel:hover{
+    color: rgb(242, 255, 55);
+}

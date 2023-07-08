@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*Nivel*/
+  .container-level{
+    background-image: linear-gradient(180deg, rgb(2, 143, 89),rgb(122, 235, 235));
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #level{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1.5em;  
+color: #ffffff;
+}
+  /*Titulo*/
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  /*Contenedor de Video y Video*/
+  #video-container{
+    background-image: linear-gradient(135deg,#ff2323, #ffee00, #fc7405 );
+    margin-top: 20px;
+    padding: 3px;
+  }
+  iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+  }
+
+  /*Style de boton Poner a Prueba el conocimiento*/
+  #prueba-btn{
+    background-color: rgb(236, 221, 3);
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 1.2em;
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
+  #prueba-btn .container{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+  }
+
+  /*Style Background con movimiento*/
+ .color{
+      background-image: linear-gradient(135deg,#ff0022, #d400ff, #7805fc );
+      background-size: 500%;
+      animation: fanimado 20s infinite;
+      padding: 15px;
+      border-radius: 15px;
+      }
+  
+  @keyframes fanimado {
+    0% {background-position: 0% 50% ;}
+    50% {background-position: 100% 50% ;}
+    100% {background-position: 0% 50% ;}
+    }
+
+/*Preguntas / Contenedor*/
+  #quiz-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #questions {
+    text-align: center;
+    border-radius: 20px;
+    padding: 25px 10px;
+    box-shadow: rgb(185, 185, 185)  0px 0px 10px 10px;
+  }
+
+  /*Items de preguntas*/
+  label{
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    border: rgb(201, 164, 1) 1px solid;
+    border-radius: 30px;
+  }
+  label:hover{
+    background-color: rgba(255, 240, 26, 0.884);
+    color: black;
+    border-radius: 30px;
+    font-size: 1.1em;
+  }
+  input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1.5em;
+}
+span{
+  margin: 5px;
+}
+  #verify-btn{
+    background-color: rgb(255, 230, 0);
+    color: rgb(1, 26, 48);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  #answer-feedback {
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+/* Respuestas Correctas */
+  h6{
+    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(90deg,#02af84, #ac65fd,#6ee003 );
+    background-size: 500%;
+    animation: fanimado 15s infinite;
+    margin: 20px 0px 30px 0px;
+    box-shadow: rgba(4, 151, 170, 0.527) 0px 0px 5px 5px;
+    border-radius: 10px;
+    padding: 15px 0;
+  }
+  p{
+    margin-bottom: 10px;
+    background-color: #fcedc1;
+    color: #272727;
+    border: solid 2px #f5d057;
+    border-radius: 10px;
+    padding: 2%;
+  }
+h4{
+  font-size: 1.6em;
+  margin-bottom: 30%;
+}
+h4, p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ /*Boton Verificar / Siguiente al final*/
+ .next-btn-container, .btn-container{
+  display: flex;
+  justify-content: center;
+}
+  #next-btn{
+    border:none;
+    margin-bottom: 150px;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    background-color: rgb(255, 230, 0);
+    color: rgb(65, 65, 65);
+    box-shadow: #a0a0a0 0 0 5px 5px;
+  }
+
+
+  /*///////////////////////*/
+  button {
+    margin-top: 20px;
+  }
+.answer{
+  background-color: #1f1f1f;
+  width: 100%;
+  height: 300px;
+  padding: 10%;
+}
+  /*STYLE RESPUESTA CORRECTA-INCORRECTA*/
+  .correct {
+    color: green;
+    font-size: 1.2em;
+  }
+  .incorrect {
+    color: red;
+    font-size: 1.2em;
+  }
+  #result-container {
+    margin: 20px;
+  }

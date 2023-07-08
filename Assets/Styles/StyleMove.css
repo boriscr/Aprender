@@ -1,0 +1,49 @@
+/*STYLE BOTONES ATRAS-HOME-SIGUIENTE*/
+.btn-move-container, .btn-move-container-home{
+    background-color: #ffffff;
+    margin-top: 15px;
+    bottom: 0px;
+    position: fixed; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(184, 183, 183) 0px 0px 10px 5px;
+    border-radius: 100px;
+  }
+  .btn-move-container-home{
+    width: auto;
+  }
+  .btn-move-container{
+    width: 95%;
+  }
+  .move-home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #move-btn{
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border: none;
+    border-radius: 100px;
+    width: 100%;
+    padding: 8px 30px;
+    font-size: 1.8em;
+    margin: 0px;
+  }
+  #move-btn:hover{
+    cursor: pointer;
+  }
+  #next-btn, #verify-btn, .btn-move-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #move-btn:hover{
+  background-color: #7805fc;
+  color: #ffffff;
+  }

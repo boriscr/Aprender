@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    background:rgb(255, 255, 255);
+}
+
+  /* Estilos para los títulos */
+  .opcion h4 {
+    margin-top: 10px;
+  }
+  section{
+    padding: 3%;
+}
+.name, .opcion, section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.opcion{
+    width: 110px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 70% 0%;
+    box-shadow: rgba(134, 134, 134, 0.541) 0px 0px 10px 3px;
+}
+.opcion:hover{
+  background: linear-gradient(30deg, rgb(192, 94, 64), rgb(216, 202, 12), rgb(250, 124, 102));
+  box-shadow: rgb(192, 240, 247) 0px 0px 10px 5px;
+  color: aliceblue;
+}
+.opcion img{
+    width: 80px;
+}
+a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    margin: 0 5%;
+}
+    
+a:hover{
+    color: black;
+}
+.opcion{
+    background: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+
+
+  /* Estilos para dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    .materias {
+        
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 15px;
+            grid-template-areas: "historia geografia"
+                            "tecnologia";
+            justify-items: center;
+    }
+    .historia{
+        grid-area: historia;
+    }
+    .geografia{
+        grid-area: geografia;
+    }
+    .tecnologia{
+        grid-area: tecnologia;
+    }
+    .opcion {
+      width: 150px;
+      text-align: center;
+      
+    }
+    .opcion img {
+      max-width: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 385px) {
+    .opcion {
+      width: 115px;
+      text-align: center;
+    }
+  }
