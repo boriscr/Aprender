@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" type="image/vnd.icon" href="../../../Assets/Styles/icono/icono.png">
+  <link rel="stylesheet" href="../../../Assets/Styles/StyleMaterias.css">
+  <link rel="stylesheet" href="../../../Assets/Styles/StyleMove.css">
+  <title>Aprende+</title>
+</head>
+<body>
+  <div class="container-level"><h7 id="level"></h7></div>
+
+  <h1 id="name-title"></h1>
+
+  <div id="video-container" class="color"></div>
+
+  <button id="prueba-btn" class="color" onclick="startQuiz()">
+    <div class="container">
+      <i class="bi bi-caret-down-fill"></i>Poner a prueba<i class="bi bi-caret-down-fill"></i></button>
+    </div>
+  <div id="quiz-container" style="display: none;">
+      <div id="questions"></div>
+      <div class="btn-container">
+          <button id="verify-btn" onclick="verifyAnswers()">Verificar respuesta <i class="bi bi-award-fill"></i></button>
+      </div>
+      <div id="answer-feedback"></div>
+  </div>
+
+  <div id="result-container" style="display: none;">
+    <h2 id="title"></h2>
+    <h6 id="final-score"></h6>
+    <ul id="respuestas-lista"></ul>
+    </div>
+  </div>
+
+  <div class="next-btn-container">
+    <button id="next-btn" onclick="nextPage()" style="display: none;">Siguiente <i class="bi bi-arrow-right-square-fill"></i></button>
+  </div>
+
+    <div class="btn-move-container">
+        <button id="move-btn" onclick="backPage()"><i class="bi bi-box-arrow-in-left"></i></button>
+        <button id="move-btn" onclick="homePage()"><i class="bi bi-house-door-fill"></i></button>
+        <button id="move-btn" onclick="nextPage()"><i class="bi bi-box-arrow-in-right"></i></button>
+    </div>
+
+  <script src="pagina5.js"></script>
+  <script src="../../Assets/Scripts/answerd.js"></script>
+  <script src="../../Assets/Scripts/ScriptGeneral.js"></script>
+</body>
+</html>

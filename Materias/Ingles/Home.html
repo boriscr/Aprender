@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.icon" href="../../Assets/Styles/icono/icono.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../Assets/Styles/StyleActionBar.css">
+    <link rel="stylesheet" href="../../Assets/Styles/StyleHome.css">
+    <link rel="stylesheet" href="../../Assets/Styles/StyleMove.css">
+    <title>Aprende+</title>
+</head>
+<body>
+    <div class="actionBar-Container"><div id="icono"> </div> <h6 id="actionBar-Titulo"></h6></div>
+<script>
+    container.innerHTML = '<img src="../../Assets/Styles/icono/icono.png">'; 
+</script>
+    <section class="materias">
+        <a href="Nivel1/Pagina1.html">
+            <div id="historia" class="opcion historia"><h5>Nivel 1</h5></div>
+        </a>
+        <a href="Nivel2/Pagina1.html">
+            <div id="historia" class="opcion historia"><h5>Nivel 2</h5></div>
+        </a>
+    </section>
+
+<div class="move-home">
+    <div class="btn-move-container-home">
+        <button id="move-btn" onclick="Inicio()"><i class="bi bi-house-door-fill"></i></button>
+    </div>
+    <script>
+    var container = document.getElementById('icono');
+    container.innerHTML = '<img src="../../Assets/Styles/icono/icono.png">';
+    document.getElementById("actionBar-Titulo").textContent = " Aprender+";
+    
+            function Inicio() {
+          window.location.href = "../../Index.html";
+             }
+    </script>
+</div>
+
+<script src="../../Assets/Script/nivelMaterias.js"></script>
+<script src="../../Assets/Script/navbar.js"></script>
+</body>
+</html>

@@ -1,7 +1,9 @@
   // Obtener todos los elementos con los IDs deseados
 var elementosHistoria = document.querySelectorAll('#historia');
 var elementosGeografia = document.querySelectorAll('#geografia');
-var elementosTecnologia = document.querySelectorAll('#tecnologia');
+var elementosBiologia = document.querySelectorAll('#biologia');
+var elementosIngles = document.querySelectorAll('#ingles');
+var elementosMatematica = document.querySelectorAll('#matematica');
 
 // Función para agregar las imágenes y los títulos
 function agregarImagenesYTitulos(elementos, imgSrc, titulo) {
@@ -23,4 +25,10 @@ agregarImagenesYTitulos(elementosHistoria, 'https://images.vexels.com/media/user
 agregarImagenesYTitulos(elementosGeografia, 'https://images.vexels.com/media/users/3/157970/isolated/preview/c156b4270aea292b9b335dd463ea17eb-icono-de-planeta-tierra-icono-de-tierra.png', 'Geografía');
 
 // Aplicar el código a los elementos de tecnología
-agregarImagenesYTitulos(elementosTecnologia, 'https://cdn-icons-png.flaticon.com/512/4257/4257812.png', 'Tecnología');
+agregarImagenesYTitulos(elementosBiologia, 'https://img.freepik.com/iconos-gratis/hoja_318-541564.jpg?w=2000', 'Biologia');
+
+// Aplicar el código a los elementos de tecnología
+agregarImagenesYTitulos(elementosIngles, 'https://static.vecteezy.com/system/resources/previews/016/016/814/original/united-states-flag-free-png.png', 'Ingles');
+
+// Aplicar el código a los elementos de tecnología
+agregarImagenesYTitulos(elementosMatematica, 'https://cdn-icons-png.flaticon.com/512/2490/2490315.png', 'Matematicas');
