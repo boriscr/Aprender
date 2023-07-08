@@ -1,68 +1,69 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "JOSE DE SAN MARTIN";
+document.getElementById("name-title").textContent = "EUROPA 🌍 Paises y Capitales Banderas del Mundo";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/iQ50LHyFRew"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/hFUwORfpyTU"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿En qué provincia argentina nació José de San Martín?",
+    question: "¿Cuál es la capital de Italia?",
     options: [
-      "Corrientes",
-      "Buenos Aires",
-      "Mendoza",
-      "Córdoba",
-      "Santa Fe"
+      "Roma",
+      "Madrid",
+      "París",
+      "Berlín",
+      "Viena"
     ],
     correctAnswer: 0
   },
   {
-    question: "¿En qué país realizó sus estudios José de San Martín?",
+    question: "¿Cuál es la capital de España?",
     options: [
-      "España",
-      "Francia",
-      "Portugal",
-      "Inglaterra",
-      "Italia"
+      "Atenas",
+      "Madrid",
+      "Lisboa",
+      "Dublín",
+      "Roma"
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
-    question: "¿En qué batalla San Martín luchó al frente de los Granaderos a Caballo?",
+    question: "¿Cuál es la capital de Alemania?",
     options: [
-      "Batalla de San Lorenzo",
-      "Batalla de Maipú",
-      "Batalla de Chacabuco",
-      "Batalla de Ayacucho",
-      "Batalla de Junín"
+      "Viena",
+      "París",
+      "Berlín",
+      "Budapest",
+      "Roma"
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
-    question: "¿Cuál era la visión de San Martín para América del Sur?",
+    question: "¿Cuál es la capital de Francia?",
     options: [
-      "Unión de todas las naciones latinoamericanas",
-      "Independencia solo para Argentina y Chile",
-      "Mantener el dominio español en la región",
-      "Anexar Sudamérica a España",
-      "Crear una confederación con Europa"
+      "Roma",
+      "Londres",
+      "París",
+      "Berna",
+      "Madrid"
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
-    question: "¿En qué año falleció José de San Martín?",
+    question: "¿Cuál es la capital de Turquía?",
     options: [
-      "1850",
-      "1810",
-      "1822",
-      "1848",
-      "1830"
+      "Ankara",
+      "Moscú",
+      "Estocolmo",
+      "Atenas",
+      "Roma"
     ],
     correctAnswer: 0
   }
 ];
+
 
 //################################################################
 //Botones de navegacion

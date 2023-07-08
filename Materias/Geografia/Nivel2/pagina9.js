@@ -1,64 +1,57 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La Revolución Industrial";
+document.getElementById("name-title").textContent = "AFRICA 🌍 Paises Capitales";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/3LQAnFEADl4"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/qh1-zB02Z6M"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Dónde tuvo lugar la Revolución Industrial?",
+    question: "¿Cuál es la capital de Angola?",
     options: [
-      "a) Estados Unidos",
-      "b) Inglaterra",
-      "c) Francia",
-      "d) España"
-    ],
-    correctAnswer: 1
-  },
-  {
-    question: "¿Cuál fue el principal avance tecnológico de la Revolución Industrial?",
-    options: [
-      "a) Máquina de vapor",
-      "b) Lámpara de gas",
-      "c) Ferrocarril",
-      "d) Barco de vapor"
+      "Luanda",
+      "Argel",
+      "Porto Novo",
+      "Gaborone",
+      "Minsk"
     ],
     correctAnswer: 0
   },
   {
-    question: "¿Qué clase social se benefició principalmente de la Revolución Industrial?",
+    question: "¿Cuál es la capital de Egipto?",
     options: [
-      "a) Aristocracia terrateniente",
-      "b) Proletariado",
-      "c) Burguesía",
-      "d) Súbditos convertidos en ciudadanos"
+      "Luanda",
+      "Argel",
+      "Cairo",
+      "Asmara",
+      "Nicosia"
     ],
     correctAnswer: 2
   },
   {
-    question: "¿Cuál fue la consecuencia demográfica de la Revolución Industrial en Inglaterra?",
+    question: "¿Cuál es la capital de Marruecos?",
     options: [
-      "a) Reducción de la población",
-      "b) Estancamiento demográfico",
-      "c) Duplicación de la población",
-      "d) Emigración masiva"
+      "Rabat",
+      "Bujumbura",
+      "Cairo",
+      "Accra",
+      "Lisboa"
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
-    question: "¿Qué sector se vio beneficiado por la aplicación del vapor en la Revolución Industrial?",
+    question: "¿Cuál es la capital de Nigeria?",
     options: [
-      "a) Agricultura",
-      "b) Minería",
-      "c) Industria textil",
-      "d) Construcción"
+      "Luanda",
+      "Lagos",
+      "Accra",
+      "Abuja",
+      "Dakar"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   }
 ];
-
 
 //################################################################
 //Botones de navegacion
