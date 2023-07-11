@@ -1,68 +1,63 @@
 document.getElementById("level").textContent = "Nivel 1";
-document.getElementById("name-title").textContent = "¿Por qué sucedió el Golpe de Estado?";
+document.getElementById("name-title").textContent = "LEYES DE LOS EXPONENTES";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/sAwl4Mudi4U"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/JkjgbByFanA"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue la causa del fallecimiento del presidente Juan Domingo Perón?",
+    question: "¿Cuál es la definición de potencia?",
     options: [
-      "Paro cardíaco",
-      "Enfermedad respiratoria",
-      "Accidente automovilístico",
-      "Envenenamiento",
-      "Suicidio"
+      "a) Una forma abreviada de escribir una multiplicación recurrente.",
+      "b) Una forma abreviada de escribir una división recurrente.",
+      "c) Una forma abreviada de escribir una suma recurrente.",
+      "d) Una forma abreviada de escribir una resta recurrente."
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Una forma abreviada de escribir una multiplicación recurrente.
   },
   {
-    question: "¿Quién se convirtió en la sucesora de Juan Domingo Perón como presidenta de Argentina?",
+    question: "¿Cuál es el resultado de 2^4?",
     options: [
-      "María Estela Martínez de Perón",
-      "Cristina Fernández de Kirchner",
-      "Eva Perón",
-      "Isabel Allende",
-      "Michelle Bachelet"
+      "a) 2",
+      "b) 4",
+      "c) 8",
+      "d) 16"
     ],
-    correctAnswer: 0
+    correctAnswer: 3 // La respuesta correcta es la opción d) 16
   },
   {
-    question: "¿Cuál era la principal amenaza que enfrentaba Isabel Perón durante su presidencia?",
+    question: "En la multiplicación de potencias de la misma base, ¿qué se hace con los exponentes?",
     options: [
-      "Revolución de corte socialista",
-      "Invasión extranjera",
-      "Crisis económica",
-      "Conflictos territoriales",
-      "Desastres naturales"
+      "a) Se suman",
+      "b) Se restan",
+      "c) Se multiplican",
+      "d) Se dividen"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Se suman
   },
   {
-    question: "¿Qué medida tomó Isabel Perón para intentar contener la situación de inestabilidad en el país?",
+    question: "¿Cuál es el resultado de (2^2) * (2^3)?",
     options: [
-      "Buscar una coalición nacional con diferentes sectores de la sociedad",
-      "Implementar políticas de austeridad",
-      "Promover la libertad de expresión",
-      "Crear programas de empleo",
-      "Establecer un régimen autoritario"
+      "a) 4",
+      "b) 8",
+      "c) 16",
+      "d) 32"
     ],
-    correctAnswer: 0
+    correctAnswer: 3 // La respuesta correcta es la opción d) 32
   },
   {
-    question: "¿Qué sucedió el 24 de marzo de 1976 en Argentina?",
+    question: "En la división de potencias de la misma base, ¿qué se hace con los exponentes?",
     options: [
-      "Se produjo un golpe militar y se estableció la junta militar en el poder",
-      "Se celebraron elecciones democráticas",
-      "Se proclamó la independencia del país",
-      "Se firmó un tratado de paz con un país vecino",
-      "Se declaró un estado de emergencia por desastre natural"
+      "a) Se suman",
+      "b) Se restan",
+      "c) Se multiplican",
+      "d) Se dividen"
     ],
-    correctAnswer: 0
-  }
-];
+    correctAnswer: 1 // La respuesta correcta es la opción b) Se restan
+  },
+ ]
 
 //################################################################
 //Botones de navegacion

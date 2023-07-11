@@ -1,64 +1,64 @@
 document.getElementById("level").textContent = "Nivel 1";
-document.getElementById("name-title").textContent = "Revolución de Mayo";
+document.getElementById("name-title").textContent = "FRACCIONES DECIMALES";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/nk47_v00buw"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/zBAOT2vUFPI"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuáles fueron los factores que generaron inquietud entre los criollos antes del 25 de mayo de 1810?",
+    question: "¿Qué se llama al número de arriba en una fracción?",
     options: [
-      "Las invasiones inglesas y la Revolución Industrial.",
-      "La Revolución Francesa y la independencia de las colonias inglesas.",
-      "Las noticias de la institución del rey Fernando VII y la Revolución Industrial.",
-      "Las invasiones inglesas y las noticias de la institución del rey Fernando VII.",
+      "a) Numerador",
+      "b) Denominador",
+      "c) Entero",
+      "d) Potencia"
     ],
-    correctAnswer: 3
+    correctAnswer: 0 // La respuesta correcta es la opción a) Numerador
   },
   {
-    question: "¿Qué suceso ocurrió en enero de 1810 en España y cómo afectó al continente americano?",
+    question: "¿Qué indica el denominador en una fracción?",
     options: [
-      "Caída de la Junta Central y avance del ejército francés.",
-      "Independencia de las colonias inglesas y caída del virrey Cisneros.",
-      "Revolución Industrial y caída del virrey Cisneros.",
-      "Revolución Francesa y caída de la Junta Central.",
+      "a) En cuántas partes iguales se divide el entero",
+      "b) Cuántas partes se toman del entero",
+      "c) Cuántas partes iguales se toman del entero",
+      "d) La potencia de 10"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) En cuántas partes iguales se divide el entero
   },
   {
-    question: "¿Cómo intentó el virrey Cisneros ocultar la noticia sobre la caída de la Junta Central en España?",
+    question: "¿Cuáles de las siguientes fracciones son fracciones decimales?",
     options: [
-      "Aceptando la divulgación de la noticia.",
-      "Utilizando espías para difundir la información.",
-      "Impidiendo la divulgación de la noticia.",
-      "Anunciando públicamente la caída de la Junta Central.",
+      "a) Tres décimos",
+      "b) Ocho centésimos",
+      "c) Quince milésimas",
+      "d) Diez enteros"
     ],
-    correctAnswer: 2
+    correctAnswer: 2 // La respuesta correcta es la opción c) Quince milésimas
   },
   {
-    question: "¿Qué evento importante ocurrió el 19 de mayo de 1810 y qué se decidió en él?",
+    question: "¿Qué caracteriza a las fracciones decimales?",
     options: [
-      "Convocatoria a un cabildo abierto para decidir el gobierno en ausencia de la Junta Central.",
-      "Renuncia del virrey Cisneros y formación de la primera junta de gobierno.",
-      "Anuncio de la independencia de España por parte de los criollos.",
-      "Caída de la institución del virrey y nombramiento de una junta provisoria.",
+      "a) Tienen numerador y denominador iguales",
+      "b) El numerador es mayor que el denominador",
+      "c) El denominador es una potencia de 10",
+      "d) Son fracciones mayores a 1"
     ],
-    correctAnswer: 0
+    correctAnswer: 2 // La respuesta correcta es la opción c) El denominador es una potencia de 10
   },
   {
-    question: "¿Quiénes formaron la primera junta de gobierno el 25 de mayo de 1810?",
+    question: "¿Qué se debe hacer si el denominador de una fracción decimal es una potencia de 10?",
     options: [
-      "Españoles y representantes de la Corona.",
-      "Criollos y líderes militares.",
-      "Ingleses y revolucionarios franceses.",
-      "Indígenas y esclavos.",
+      "a) Multiplicar el numerador por el denominador",
+      "b) Dividir el numerador por el denominador",
+      "c) Sumar el numerador y el denominador",
+      "d) No hacer ninguna operación adicional"
     ],
-    correctAnswer: 1
+    correctAnswer: 3 // La respuesta correcta es la opción d) No hacer ninguna operación adicional
   }
-      // Agregar más preguntas...
 ];
+
 
 //################################################################
 //Botones de navegacion

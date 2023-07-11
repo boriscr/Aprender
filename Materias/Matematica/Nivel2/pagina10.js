@@ -1,64 +1,63 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La Revolución Francesa";
+document.getElementById("name-title").textContent = "PARA QUE SIRVE LAS MATEMÁTICAS EN LA VIDA REAL";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/ttdq818TGD0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/Z4tPbyR7YWg"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue el cambio social y político más importante que tuvo lugar en Europa a finales del siglo XVII?",
+    question: "¿Cuál es la disciplina que provoca sudores fríos al escuchar palabras como raíz cuadrada, polinomios, ecuaciones y geometría?",
     options: [
-      "a) La Revolución Industrial",
-      "b) La Revolución Rusa",
-      "c) La Revolución Francesa",
-      "d) La Revolución Americana"
+      "a) Física",
+      "b) Química",
+      "c) Biología",
+      "d) Matemáticas"
     ],
-    correctAnswer: 2
+    correctAnswer: 3 // La respuesta correcta es la opción d) Matemáticas.
   },
   {
-    question: "¿Cuáles fueron las principales ideas de la Ilustración?",
+    question: "¿En qué aspecto de la vida profesional son indispensables las matemáticas?",
     options: [
-      "a) La igualdad y la fraternidad",
-      "b) La razón y la libertad",
-      "c) La fe y la obediencia",
-      "d) El poder absoluto y la sumisión"
+      "a) En la construcción de puentes",
+      "b) En el diseño de páginas web",
+      "c) En el desarrollo de tecnologías",
+      "d) En la educación de los niños"
     ],
-    correctAnswer: 1
+    correctAnswer: 0 // La respuesta correcta es la opción a) En la construcción de puentes.
   },
   {
-    question: "¿Cuál era la composición del Tercer Estado en la sociedad francesa?",
+    question: "¿Para qué se utilizan las matemáticas en la vida particular?",
     options: [
-      "a) La nobleza y el clero",
-      "b) Los campesinos y los obreros",
-      "c) Los comerciantes y los banqueros",
-      "d) Los artistas y los intelectuales"
+      "a) Para calcular porcentajes de descuento",
+      "b) Para medir el peso de los productos",
+      "c) Para ver la hora y la fecha",
+      "d) Todas las anteriores"
     ],
-    correctAnswer: 2
+    correctAnswer: 3 // La respuesta correcta es la opción d) Todas las anteriores.
   },
   {
-    question: "¿Qué suceso marcó el inicio de la Revolución Francesa?",
+    question: "¿Qué nos permite comprender mejor el funcionamiento de las páginas de redes sociales?",
     options: [
-      "a) La toma de la Bastilla",
-      "b) La decapitación del rey Luis XVI",
-      "c) La proclamación de la República",
-      "d) La declaración de los Derechos del Hombre y del Ciudadano"
+      "a) El conocimiento de algoritmos",
+      "b) La capacidad de sumar, restar y multiplicar",
+      "c) El manejo de la física",
+      "d) El estudio de la biología"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) El conocimiento de algoritmos.
   },
   {
-    question: "¿Quiénes lideraron la fase radical de la Revolución Francesa conocida como el 'Reino del Terror'?",
+    question: "¿Cuál es la conclusión sobre las matemáticas según el texto?",
     options: [
-      "a) Danton y Robespierre",
-      "b) Luis XVI y María Antonieta",
-      "c) Voltaire y Rousseau",
-      "d) Montesquieu y Diderot"
+      "a) Son una ciencia inútil en la vida diaria.",
+      "b) Son solo aplicables en la educación.",
+      "c) Mejoran nuestra percepción y nos llevan al conocimiento.",
+      "d) Son necesarias solo en la construcción de puentes."
     ],
-    correctAnswer: 0
+    correctAnswer: 2 // La respuesta correcta es la opción c) Mejoran nuestra percepción y nos llevan al conocimiento.
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

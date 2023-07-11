@@ -1,63 +1,64 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La GUERRA de independencia ARGENTINA";
+document.getElementById("name-title").textContent = "El SITEMA CIRCULATORIO";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/xQgiNKUDI2E"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/n1Sxp8AAUAw"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
+const questions = [
   {
-    question: "¿Cuál fue el primer país en intentar su independencia en la región?",
+    question: "¿Cuál es la función principal del sistema circulatorio?",
     options: [
-      "a) Argentina",
-      "b) Chile",
-      "c) Perú",
-      "d) Uruguay"
+      "Distribuir nutrientes a las células.",
+      "Transportar gases respiratorios.",
+      "Regular la temperatura corporal.",
+      "Proteger el organismo contra patógenos."
     ],
     correctAnswer: 0
   },
   {
-    question: "¿Cuál fue la capital del Virreinato del Río de la Plata?",
+    question: "¿Cuáles son las subdivisiones principales del sistema circulatorio?",
     options: [
-      "a) Buenos Aires",
-      "b) Lima",
-      "c) Montevideo",
-      "d) Córdoba"
-    ],
-    correctAnswer: 0
-  },
-  {
-    question: "¿Quién lideró el ejército argentino durante la guerra de independencia?",
-    options: [
-      "a) José San Martín",
-      "b) Manuel Belgrano",
-      "c) Martín Miguel de Güemes",
-      "d) José Gervasio Artigas"
-    ],
-    correctAnswer: 1
-  },
-  {
-    question: "¿En qué año se declaró formalmente la independencia de Argentina?",
-    options: [
-      "a) 1808",
-      "b) 1810",
-      "c) 1816",
-      "d) 1821"
+      "Sistema cardiovascular y sistema respiratorio.",
+      "Sistema respiratorio y sistema linfático.",
+      "Sistema cardiovascular y sistema linfático.",
+      "Sistema linfático y sistema endocrino."
     ],
     correctAnswer: 2
   },
   {
-    question: "¿Quién lideró el cruce de los Andes para liberar Chile y Perú?",
+    question: "¿Qué función cumple el corazón en el sistema circulatorio?",
     options: [
-      "a) José San Martín",
-      "b) Manuel Belgrano",
-      "c) Martín Miguel de Güemes",
-      "d) José Gervasio Artigas"
+      "Distribuir la sangre a los pulmones.",
+      "Regular la temperatura corporal.",
+      "Bombeo de la sangre por todo el cuerpo.",
+      "Filtrar la sangre y eliminar los desechos."
+    ],
+    correctAnswer: 2
+  },
+  {
+    question: "¿Cuáles son los tipos de vasos sanguíneos presentes en el sistema circulatorio?",
+    options: [
+      "Arterias, venas y capilares.",
+      "Venas, linfáticos y arteriolas.",
+      "Arteriolas, venas y linfáticos.",
+      "Capilares, venas y arterias."
     ],
     correctAnswer: 0
+  },
+  {
+    question: "¿Cuál es una función del sistema linfático en el sistema circulatorio?",
+    options: [
+      "Transportar la sangre oxigenada.",
+      "Regular la presión sanguínea.",
+      "Eliminar los desechos metabólicos.",
+      "Filtrar la linfa y proteger contra agentes nocivos."
+    ],
+    correctAnswer: 3
   }
 ];
+
 
 //################################################################
 //Botones de navegacion

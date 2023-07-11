@@ -1,64 +1,63 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La GUERRA de las MALVINAS";
+document.getElementById("name-title").textContent = "¿QUÉ ES LA ESTADÍSTICA?";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/crHwvNe69V8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/0_ybaigJd1s"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
+const questions = [
   {
-    question: "¿Quién fue el descubridor de las Malvinas?",
+    question: "¿Qué es la estadística?",
     options: [
-      "Alguno de los miembros de la tripulación de Magallanes-Elcano en 1520",
-      "John Davis en 1592",
-      "No se sabe con exactitud quién las vio y documentó por primera vez",
-      "Los británicos en 1690"
+      "a) La rama de las matemáticas que estudia las figuras geométricas.",
+      "b) La rama de las matemáticas que se encarga del análisis de funciones.",
+      "c) La rama de las matemáticas que se encarga de la obtención, organización, análisis e interpretación de un conjunto de datos.",
+      "d) La rama de las matemáticas que estudia los números complejos."
     ],
-    correctAnswer: 2,
+    correctAnswer: 2 // La respuesta correcta es la opción c) La rama de las matemáticas que se encarga de la obtención, organización, análisis e interpretación de un conjunto de datos.
   },
   {
-    question: "¿Qué país estableció el primer asentamiento firme en las Malvinas?",
+    question: "¿Cuál es la razón principal de la estadística?",
     options: [
-      "Francia en 1764",
-      "España en 1767",
-      "Holanda en 1764",
-      "Inglaterra en 1770"
+      "a) Ayudar a comprender mejor los hechos mediante el análisis de datos.",
+      "b) Estudiar las formas geométricas en el espacio.",
+      "c) Resolver ecuaciones matemáticas complejas.",
+      "d) Realizar predicciones sobre eventos futuros."
     ],
-    correctAnswer: 0,
+    correctAnswer: 0 // La respuesta correcta es la opción a) Ayudar a comprender mejor los hechos mediante el análisis de datos.
   },
   {
-    question: "¿Qué país reclamó las Malvinas en 1767 como una extensión de su imperio?",
+    question: "¿Cuál es la diferencia entre la estadística descriptiva y la estadística inferencial?",
     options: [
-      "Francia",
-      "Inglaterra",
-      "España",
-      "Holanda"
+      "a) La estadística descriptiva se encarga de recolectar y organizar datos, mientras que la estadística inferencial hace predicciones y conclusiones.",
+      "b) La estadística descriptiva se encarga de hacer predicciones y conclusiones, mientras que la estadística inferencial recolecta y organiza datos.",
+      "c) No hay diferencia, son dos términos que se refieren a lo mismo.",
+      "d) La estadística descriptiva se enfoca en datos cualitativos y la estadística inferencial en datos cuantitativos."
     ],
-    correctAnswer: 2,
+    correctAnswer: 0 // La respuesta correcta es la opción a) La estadística descriptiva se encarga de recolectar y organizar datos, mientras que la estadística inferencial hace predicciones y conclusiones.
   },
   {
-    question: "¿Qué país expulsó a los argentinos de las Malvinas en 1833?",
+    question: "¿Cuál es el objetivo principal de la estadística descriptiva?",
     options: [
-      "Francia",
-      "Inglaterra",
-      "España",
-      "Holanda"
+      "a) Realizar predicciones y generalizaciones.",
+      "b) Obtener conclusiones a partir del análisis de datos.",
+      "c) Describir las características de los datos mediante indicadores, tablas y gráficos.",
+      "d) Organizar y presentar datos de manera visual."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2 // La respuesta correcta es la opción c) Describir las características de los datos mediante indicadores, tablas y gráficos.
   },
   {
-    question: "¿Cuál fue el resultado final de la guerra de las Malvinas en 1982?",
+    question: "¿Qué disciplinas hacen uso de la estadística?",
     options: [
-      "Victoria argentina y recuperación de las islas",
-      "Victoria británica y mantenimiento del control de las islas",
-      "Acuerdo de paz y reparto de soberanía",
-      "Independencia de las islas y autogobierno"
+      "a) Geografía, literatura y música.",
+      "b) Arquitectura, danza y fotografía.",
+      "c) Economía, psicología, sociología, educación, medicina, biología, entre otras.",
+      "d) Deportes, cocina y manualidades."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2 // La respuesta correcta es la opción c) Economía, psicología, sociología, educación, medicina, biología, entre otras.
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

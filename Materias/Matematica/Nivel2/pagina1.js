@@ -1,62 +1,62 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La Conquista del Perú | Francisco Pizarro y el Imperio Inca";
+document.getElementById("name-title").textContent = "CALCULAR UN PORCENTAJE";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/tjQJCgx4GGw"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/RE3XoDORMys"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
+const questions = [
   {
-    question: "¿Cuál era el imperio más extenso de la América precolombina?",
+    question: "¿Qué es un porcentaje?",
     options: [
-      "a) Imperio Azteca",
-      "b) Imperio Inca",
-      "c) Imperio Maya",
-      "d) Imperio Chibcha"
+      "a) Un número entero que representa una cantidad específica.",
+      "b) Un símbolo matemático que representa una cantidad dada como una fracción en 100 partes iguales.",
+      "c) Un tipo de operación matemática que involucra la suma de dos cantidades.",
+      "d) Una medida de la amplitud de un ángulo en relación con un círculo completo."
     ],
-    correctAnswer: 1
+    correctAnswer: 1 // La respuesta correcta es la opción b) Un símbolo matemático que representa una cantidad dada como una fracción en 100 partes iguales.
   },
   {
-    question: "¿Qué técnica utilizaban los incas para adaptarse al relieve y facilitar la distribución de agua?",
+    question: "¿Qué significa que el 80 por ciento de la población es feliz?",
     options: [
-      "a) Caminos de piedra",
-      "b) Terrazas o andenes de cultivo",
-      "c) Cultivo en terraplenes",
-      "d) Sistemas de riego"
+      "a) Que 80 personas de cada 100 son felices.",
+      "b) Que el 80 por ciento de las personas son felices en promedio.",
+      "c) Que hay un total de 80 personas felices en la población.",
+      "d) Que el 80 por ciento de las personas tienen la capacidad de ser felices."
     ],
-    correctAnswer: 1
+    correctAnswer: 0 // La respuesta correcta es la opción a) Que 80 personas de cada 100 son felices.
   },
   {
-    question: "¿Quién lideró la conquista del Perú?",
+    question: "¿Cómo se puede representar el porcentaje como una fracción?",
     options: [
-      "a) Hernán Cortés",
-      "b) Vasco Núñez de Balboa",
-      "c) Francisco Pizarro",
-      "d) Hernando de Luque"
+      "a) Numerador igual al porcentaje y denominador igual a 100.",
+      "b) Numerador igual a 100 y denominador igual al porcentaje.",
+      "c) Numerador igual al porcentaje y denominador igual a la cantidad total.",
+      "d) Numerador igual a la cantidad total y denominador igual al porcentaje."
     ],
-    correctAnswer: 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) Numerador igual al porcentaje y denominador igual a 100.
   },
   {
-    question: "¿Qué estrategia utilizaron los españoles para capturar al Inca Atahualpa?",
+    question: "¿Cuál es el decimal equivalente al 60 por ciento?",
     options: [
-      "a) Emboscada en las montañas",
-      "b) Negociaciones pacíficas",
-      "c) Ataque sorpresa durante una entrevista",
-      "d) Asedio a la ciudad de Cajamarca"
+      "a) 6",
+      "b) 0.06",
+      "c) 0.6",
+      "d) 60"
     ],
-    correctAnswer: 2
+    correctAnswer: 2 // La respuesta correcta es la opción c) 0.6
   },
   {
-    question: "¿Por qué terminaron muertos los dos conquistadores más importantes de esta historia?",
+    question: "¿Cuál es la forma más rápida de obtener el resultado de un porcentaje?",
     options: [
-      "a) Fueron ejecutados por orden del Inca Atahualpa",
-      "b) Murieron en combate durante la conquista del Perú",
-      "c) Se enfrentaron en una guerra civil entre pizarristas y almagristas",
-      "d) Fueron asesinados por sus propios hombres"
+      "a) Multiplicar la cantidad total por el decimal equivalente al porcentaje.",
+      "b) Dividir la cantidad total entre el porcentaje y multiplicar por 100.",
+      "c) Restar el porcentaje de 100 y multiplicar el resultado por la cantidad total.",
+      "d) Sumar el porcentaje a 100 y multiplicar el resultado por la cantidad total."
     ],
-    correctAnswer: 2
-  }
+    correctAnswer: 0 // La respuesta correcta es la opción a) Multiplicar la cantidad total por el decimal equivalente al porcentaje.
+  },
 ];
 
 //################################################################

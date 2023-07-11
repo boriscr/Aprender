@@ -1,63 +1,64 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La SEGUNDA GUERRA MUNDIAL";
+document.getElementById("name-title").textContent = "FUNCIONES TRIGONOMETRICAS";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/sRi0bCjnMFs"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/8zVW0U2jn8U"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue el origen de la Segunda Guerra Mundial?",
+    question: "¿Qué son los triángulos rectángulos?",
     options: [
-      "a) La invasión de Polonia por parte de Alemania",
-      "b) El ataque a Pearl Harbor",
-      "c) El bombardeo de Hiroshima y Nagasaki",
-      "d) La firma del Tratado de Versalles"
+      "a) Triángulos con tres lados iguales.",
+      "b) Triángulos con un ángulo de 90 grados.",
+      "c) Triángulos con un ángulo agudo.",
+      "d) Triángulos con ángulos rectos."
     ],
-    correctAnswer: 0,
+    correctAnswer: 1 // La respuesta correcta es la opción b) Triángulos con un ángulo de 90 grados.
   },
   {
-    question: "¿Qué país lideró las potencias del Eje durante la Segunda Guerra Mundial?",
+    question: "¿Cómo se llama el lado más largo de un triángulo rectángulo?",
     options: [
-      "a) Alemania",
-      "b) Estados Unidos",
-      "c) Francia",
-      "d) Italia"
+      "a) Hipotenusa",
+      "b) Cateto opuesto",
+      "c) Cateto adyacente",
+      "d) Ángulo recto"
     ],
-    correctAnswer: 0,
+    correctAnswer: 0 // La respuesta correcta es la opción a) Hipotenusa
   },
   {
-    question: "¿Cuál fue la estrategia utilizada por Alemania en la conquista de Francia?",
+    question: "¿Cuál es la fórmula del seno de un ángulo en un triángulo rectángulo?",
     options: [
-      "a) Guerra relámpago",
-      "b) Guerra de trincheras",
-      "c) Guerra de guerrillas",
-      "d) Guerra naval"
+      "a) Cateto opuesto / Hipotenusa",
+      "b) Cateto adyacente / Hipotenusa",
+      "c) Cateto opuesto / Cateto adyacente",
+      "d) Hipotenusa / Cateto opuesto"
     ],
-    correctAnswer: 0,
+    correctAnswer: 0 // La respuesta correcta es la opción a) Cateto opuesto / Hipotenusa
   },
   {
-    question: "¿Cuál fue el resultado de la Batalla de Inglaterra?",
+    question: "¿Cuál es la fórmula del coseno de un ángulo en un triángulo rectángulo?",
     options: [
-      "a) Victoria de Alemania",
-      "b) Victoria de Estados Unidos",
-      "c) Victoria de Inglaterra",
-      "d) Empate"
+      "a) Cateto opuesto / Hipotenusa",
+      "b) Cateto adyacente / Hipotenusa",
+      "c) Cateto opuesto / Cateto adyacente",
+      "d) Hipotenusa / Cateto opuesto"
     ],
-    correctAnswer: 2,
+    correctAnswer: 1 // La respuesta correcta es la opción b) Cateto adyacente / Hipotenusa
   },
   {
-    question: "¿Cuál fue el objetivo principal de la Operación Barbarroja?",
+    question: "¿Cuál es la fórmula de la tangente de un ángulo en un triángulo rectángulo?",
     options: [
-      "a) Conquistar Italia",
-      "b) Invadir Inglaterra",
-      "c) Conquistar la Unión Soviética",
-      "d) Liberar Francia"
+      "a) Cateto opuesto / Hipotenusa",
+      "b) Cateto adyacente / Hipotenusa",
+      "c) Cateto opuesto / Cateto adyacente",
+      "d) Hipotenusa / Cateto opuesto"
     ],
-    correctAnswer: 2,
+    correctAnswer: 2 // La respuesta correcta es la opción c) Cateto opuesto / Cateto adyacente
   }
 ];
+
 
 //################################################################
 //Botones de navegacion

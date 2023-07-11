@@ -1,68 +1,64 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "JOSE DE SAN MARTIN";
+document.getElementById("name-title").textContent = "FUNCIONES LINEALES";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/iQ50LHyFRew"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/edE5Y1kOgFw"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿En qué provincia argentina nació José de San Martín?",
+    question: "¿Qué es el plano cartesiano?",
     options: [
-      "Corrientes",
-      "Buenos Aires",
-      "Mendoza",
-      "Córdoba",
-      "Santa Fe"
+      "a) Una recta numérica.",
+      "b) Un sistema de coordenadas formado por dos rectas numéricas perpendiculares.",
+      "c) Un sistema de coordenadas formado por tres rectas numéricas perpendiculares.",
+      "d) Un sistema de coordenadas formado por dos rectas paralelas."
     ],
-    correctAnswer: 0
+    correctAnswer: 1 // La respuesta correcta es la opción b) Un sistema de coordenadas formado por dos rectas numéricas perpendiculares.
   },
   {
-    question: "¿En qué país realizó sus estudios José de San Martín?",
+    question: "¿Cómo se llama la recta horizontal en el plano cartesiano?",
     options: [
-      "España",
-      "Francia",
-      "Portugal",
-      "Inglaterra",
-      "Italia"
+      "a) Abscisas o eje de las x.",
+      "b) Ordenada o eje de las y.",
+      "c) Verticales o eje z.",
+      "d) Origen."
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Abscisas o eje de las x.
   },
   {
-    question: "¿En qué batalla San Martín luchó al frente de los Granaderos a Caballo?",
+    question: "¿Cómo se llama la recta vertical en el plano cartesiano?",
     options: [
-      "Batalla de San Lorenzo",
-      "Batalla de Maipú",
-      "Batalla de Chacabuco",
-      "Batalla de Ayacucho",
-      "Batalla de Junín"
+      "a) Abscisas o eje de las x.",
+      "b) Ordenada o eje de las y.",
+      "c) Verticales o eje z.",
+      "d) Origen."
     ],
-    correctAnswer: 0
+    correctAnswer: 1 // La respuesta correcta es la opción b) Ordenada o eje de las y.
   },
   {
-    question: "¿Cuál era la visión de San Martín para América del Sur?",
+    question: "¿Qué tipo de ecuaciones se están analizando en el video?",
     options: [
-      "Unión de todas las naciones latinoamericanas",
-      "Independencia solo para Argentina y Chile",
-      "Mantener el dominio español en la región",
-      "Anexar Sudamérica a España",
-      "Crear una confederación con Europa"
+      "a) Ecuaciones de segundo grado.",
+      "b) Ecuaciones lineales.",
+      "c) Ecuaciones exponenciales.",
+      "d) Ecuaciones trigonométricas."
     ],
-    correctAnswer: 0
+    correctAnswer: 1 // La respuesta correcta es la opción b) Ecuaciones lineales.
   },
   {
-    question: "¿En qué año falleció José de San Martín?",
+    question: "¿Cuál es el exponente de x en las ecuaciones lineales mencionadas?",
     options: [
-      "1850",
-      "1810",
-      "1822",
-      "1848",
-      "1830"
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) No se menciona en el video."
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) 1.
   }
 ];
+
 
 //################################################################
 //Botones de navegacion

@@ -1,61 +1,61 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La PRIMERA GUERRA MUNDIAL";
+document.getElementById("name-title").textContent = "Selección natural";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/P3BZGnkCn-M"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/Cz6VTtlQksE"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
+const questions = [
   {
-    question: "¿Cuál fue el conflicto armado más grande de la historia hasta la fecha mencionada?",
+    question: "¿Qué causa la diversidad de especies en nuestro planeta?",
     options: [
-      "a) Guerra de Trincheras",
-      "b) Guerra Mundial",
-      "c) Revolución Industrial",
-      "d) Guerra de Independencia"
+      "a) Evolución",
+      "b) Mutaciones",
+      "c) Adaptación al medio",
+      "d) Reproducción"
     ],
-    correctAnswer: 1
+    correctAnswer: 0 // La respuesta correcta es la opción a) Evolución
   },
   {
-    question: "¿Cuáles eran los bloques bien definidos en el conflicto?",
+    question: "¿Qué son las mutaciones en los seres vivos?",
     options: [
-      "a) Triple Entente y Triple Alianza",
-      "b) Alemania y Francia",
-      "c) Reino Unido y Rusia",
-      "d) Imperio Austrohúngaro e Italia"
+      "a) Cambios en los rasgos heredados",
+      "b) Enfermedades mortales",
+      "c) Adaptaciones al entorno",
+      "d) Reproducción de características"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Cambios en los rasgos heredados
   },
   {
-    question: "¿Quién fue asesinado en Sarajevo, lo que desencadenó la guerra?",
+    question: "¿Cuál es el proceso por el cual los seres vivos mejor adaptados sobreviven y se reproducen?",
     options: [
-      "a) Francisco Fernando de Austria",
-      "b) Francisco Pizarro",
-      "c) Napoleón Bonaparte",
-      "d) Winston Churchill"
+      "a) Selección natural",
+      "b) Mutaciones genéticas",
+      "c) Herencia de rasgos",
+      "d) Competencia por recursos"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Selección natural
   },
   {
-    question: "¿En qué batalla los aliados lograron detener el avance alemán hacia París?",
+    question: "¿Qué ocurre con los conejos que tienen rasgos desfavorables en un entorno específico?",
     options: [
-      "a) Batalla del Marne",
-      "b) Batalla de Waterloo",
-      "c) Batalla de Tanember",
-      "d) Batalla de Gallipoli"
+      "a) Se reproducen más que los demás",
+      "b) Sobreviven y se adaptan rápidamente",
+      "c) Son más fuertes y resistentes",
+      "d) Se reproducen menos y sus rasgos disminuyen"
     ],
-    correctAnswer: 0
+    correctAnswer: 3 // La respuesta correcta es la opción d) Se reproducen menos y sus rasgos disminuyen
   },
   {
-    question: "¿Qué estrategia adoptaron ambos bandos una vez estabilizados los frentes?",
+    question: "¿Cuál es la relación entre las mutaciones y la selección natural en la evolución de las especies?",
     options: [
-      "a) Guerra de Desgaste",
-      "b) Guerra Móvil",
-      "c) Guerra Química",
-      "d) Guerra Aérea"
+      "a) Las mutaciones generan la selección natural",
+      "b) La selección natural causa mutaciones",
+      "c) Las mutaciones y la selección natural son independientes",
+      "d) Las mutaciones son seleccionadas por la selección natural"
     ],
-    correctAnswer: 0
+    correctAnswer: 3 // La respuesta correcta es la opción d) Las mutaciones son seleccionadas por la selección natural
   }
 ];
 

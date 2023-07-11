@@ -1,64 +1,63 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La Revolución Francesa";
+document.getElementById("name-title").textContent = "La ingeniería genética y la comida.";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/ttdq818TGD0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/fi1h2E835ig"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue el cambio social y político más importante que tuvo lugar en Europa a finales del siglo XVII?",
+    question: "¿Cuál es una de las áreas científicas más controvertidas relacionada con los OMG?",
     options: [
-      "a) La Revolución Industrial",
-      "b) La Revolución Rusa",
-      "c) La Revolución Francesa",
-      "d) La Revolución Americana"
+      "a) Medicina",
+      "b) Alimentación",
+      "c) Agricultura",
+      "d) Ninguna de las anteriores"
     ],
-    correctAnswer: 2
+    correctAnswer: 1 // La respuesta correcta es la opción b) Alimentación
   },
   {
-    question: "¿Cuáles fueron las principales ideas de la Ilustración?",
+    question: "¿Cuál es uno de los ejemplos mencionados en el video de la aplicación de la ingeniería genética en el campo médico?",
     options: [
-      "a) La igualdad y la fraternidad",
-      "b) La razón y la libertad",
-      "c) La fe y la obediencia",
-      "d) El poder absoluto y la sumisión"
+      "a) Producción de insulina transgénica",
+      "b) Mejora de cultivos resistentes al cambio climático",
+      "c) Creación de animales con características beneficiosas",
+      "d) Ninguna de las anteriores"
     ],
-    correctAnswer: 1
+    correctAnswer: 0 // La respuesta correcta es la opción a) Producción de insulina transgénica
   },
   {
-    question: "¿Cuál era la composición del Tercer Estado en la sociedad francesa?",
+    question: "¿Cuál es una de las principales preocupaciones con respecto a los OMG según se menciona en el video?",
     options: [
-      "a) La nobleza y el clero",
-      "b) Los campesinos y los obreros",
-      "c) Los comerciantes y los banqueros",
-      "d) Los artistas y los intelectuales"
+      "a) El flujo de genes no deseados",
+      "b) La falta de estudios científicos",
+      "c) El alto costo de los cultivos transgénicos",
+      "d) Ninguna de las anteriores"
     ],
-    correctAnswer: 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) El flujo de genes no deseados
   },
   {
-    question: "¿Qué suceso marcó el inicio de la Revolución Francesa?",
+    question: "¿Qué porcentaje de los cultivos comerciales en los Estados Unidos es resistente a los herbicidas según se menciona en el video?",
     options: [
-      "a) La toma de la Bastilla",
-      "b) La decapitación del rey Luis XVI",
-      "c) La proclamación de la República",
-      "d) La declaración de los Derechos del Hombre y del Ciudadano"
+      "a) Más del 90%",
+      "b) Menos del 50%",
+      "c) Alrededor del 70%",
+      "d) Ninguna de las anteriores"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Más del 90%
   },
   {
-    question: "¿Quiénes lideraron la fase radical de la Revolución Francesa conocida como el 'Reino del Terror'?",
+    question: "¿Cuál es una de las posibles aplicaciones futuras de los OMG mencionada en el video?",
     options: [
-      "a) Danton y Robespierre",
-      "b) Luis XVI y María Antonieta",
-      "c) Voltaire y Rousseau",
-      "d) Montesquieu y Diderot"
+      "a) Plantas que extraen nitrógeno del aire",
+      "b) Cultivos con mayor resistencia a las inundaciones",
+      "c) Frutas con más antioxidantes",
+      "d) Ninguna de las anteriores"
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) Plantas que extraen nitrógeno del aire
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

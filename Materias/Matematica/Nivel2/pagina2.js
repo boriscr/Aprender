@@ -1,63 +1,63 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La GUERRA de independencia ARGENTINA";
+document.getElementById("name-title").textContent = "¿QUE ES LA GEOMETRÍA?";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/xQgiNKUDI2E"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/RWwJ7NGpdQQ"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
+const questions = [
   {
-    question: "¿Cuál fue el primer país en intentar su independencia en la región?",
+    question: "¿Qué es la geometría?",
     options: [
-      "a) Argentina",
-      "b) Chile",
-      "c) Perú",
-      "d) Uruguay"
+      "a) La rama de las matemáticas que estudia la extensión de figuras en un plano o espacio y la forma de medirlas.",
+      "b) La ciencia que estudia los cuerpos celestes y sus movimientos.",
+      "c) La disciplina que se encarga del estudio de los números y sus propiedades.",
+      "d) La rama de la física que se ocupa del estudio de la materia y la energía."
     ],
-    correctAnswer: 0
+    correctAnswer: 0 // La respuesta correcta es la opción a) La rama de las matemáticas que estudia la extensión de figuras en un plano o espacio y la forma de medirlas.
   },
   {
-    question: "¿Cuál fue la capital del Virreinato del Río de la Plata?",
+    question: "¿Quién es considerado el padre de la geometría?",
     options: [
-      "a) Buenos Aires",
-      "b) Lima",
-      "c) Montevideo",
-      "d) Córdoba"
+      "a) Heródoto",
+      "b) Euclides",
+      "c) Descartes",
+      "d) René"
     ],
-    correctAnswer: 0
+    correctAnswer: 1 // La respuesta correcta es la opción b) Euclides
   },
   {
-    question: "¿Quién lideró el ejército argentino durante la guerra de independencia?",
+    question: "¿Qué son los axiomas en geometría?",
     options: [
-      "a) José San Martín",
-      "b) Manuel Belgrano",
-      "c) Martín Miguel de Güemes",
-      "d) José Gervasio Artigas"
+      "a) Enunciados que describen y relacionan conceptos en la geometría.",
+      "b) Herramientas utilizadas para medir longitudes y ángulos.",
+      "c) Las fórmulas utilizadas para calcular áreas y volúmenes.",
+      "d) Instrumentos utilizados para trazar figuras geométricas."
     ],
-    correctAnswer: 1
+    correctAnswer: 0 // La respuesta correcta es la opción a) Enunciados que describen y relacionan conceptos en la geometría.
   },
   {
-    question: "¿En qué año se declaró formalmente la independencia de Argentina?",
+    question: "¿Cuál es la importancia del número pi en geometría?",
     options: [
-      "a) 1808",
-      "b) 1810",
-      "c) 1816",
-      "d) 1821"
+      "a) Es utilizado para calcular el perímetro y área de los círculos.",
+      "b) Es el número que representa la proporción entre la circunferencia y el diámetro de un círculo.",
+      "c) Ayuda a establecer las relaciones entre puntos, líneas y ángulos en la geometría.",
+      "d) Es una constante que se utiliza para calcular el volumen de los sólidos geométricos."
     ],
-    correctAnswer: 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) Es utilizado para calcular el perímetro y área de los círculos.
   },
   {
-    question: "¿Quién lideró el cruce de los Andes para liberar Chile y Perú?",
+    question: "¿Cuál de las siguientes opciones NO es un tipo de geometría?",
     options: [
-      "a) José San Martín",
-      "b) Manuel Belgrano",
-      "c) Martín Miguel de Güemes",
-      "d) José Gervasio Artigas"
+      "a) Geometría descriptiva",
+      "b) Geometría algebraica",
+      "c) Geometría numérica",
+      "d) Geometría proyectiva"
     ],
-    correctAnswer: 0
-  }
-];
+    correctAnswer: 2 // La respuesta correcta es la opción c) Geometría numérica
+  },
+ ]
 
 //################################################################
 //Botones de navegacion

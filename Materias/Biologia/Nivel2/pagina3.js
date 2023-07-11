@@ -1,113 +1,68 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La GUERRA de la TRIPLE ALIANZA";
+document.getElementById("name-title").textContent = "Anatomía del SISTEMA DIGESTIVO";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/dtTnWayxPOY"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/9cOwNxqn5dk"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
-var questions = [
+const questions = [
   {
-    question: "¿Cuál fue la mayor guerra de la historia de América Latina?",
+    question: "¿Cuál es la función principal de la boca en el sistema digestivo?",
     options: [
-      "a) Guerra de la Independencia",
-      "b) Guerra de la Triple Alianza",
-      "c) Guerra Civil de Uruguay",
-      "d) Guerra de la Triple Entente"
+      "a) Inicio de la digestión",
+      "b) Producción de bilis",
+      "c) Absorción de nutrientes",
+      "d) Excreción de desechos",
+      "e) Filtración de nutrientes"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
-    question: "¿Cuáles fueron los países que formaron la Triple Alianza en la guerra?",
+    question: "¿Qué función cumple la lengua en el sistema digestivo?",
     options: [
-      "a) Brasil, Argentina y Paraguay",
-      "b) Brasil, Argentina y Uruguay",
-      "c) Brasil, Paraguay y Uruguay",
-      "d) Argentina, Paraguay y Uruguay"
+      "a) Deglución de alimentos",
+      "b) Producción de enzimas digestivas",
+      "c) Absorción de agua",
+      "d) Filtración de nutrientes",
+      "e) Excreción de desechos"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
-    question: "¿Cuál fue el país que invadió Uruguay en el conflicto?",
+    question: "¿Cuál es la función principal de las glándulas salivales en el sistema digestivo?",
     options: [
-      "a) Paraguay",
-      "b) Argentina",
-      "c) Brasil",
-      "d) Reino Unido"
+      "a) Producción de saliva",
+      "b) Producción de bilis",
+      "c) Absorción de nutrientes",
+      "d) Secreción de enzimas digestivas",
+      "e) Excreción de desechos"
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
-    question: "¿Cuál fue la batalla más importante de la guerra de la Triple Alianza?",
+    question: "¿Dónde se encuentra el esfínter gastroesofágico en el sistema digestivo?",
     options: [
-      "a) Batalla de Riachuelo",
-      "b) Batalla de Corrientes",
-      "c) Batalla de Tuyutí",
-      "d) Batalla de Itá Ibaté"
+      "a) Entre el esófago y el estómago",
+      "b) Entre el estómago y el intestino delgado",
+      "c) Entre el intestino delgado y el intestino grueso",
+      "d) Entre el recto y el ano",
+      "e) Entre el hígado y el páncreas"
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
-    question: "¿Cuál fue la última campaña de la guerra, donde los brasileños atacaron la retaguardia paraguaya?",
+    question: "¿Cuál es la función principal del intestino grueso en el sistema digestivo?",
     options: [
-      "a) Campaña de Humaitá",
-      "b) Campaña de Corrientes",
-      "c) Campaña de Itá Ibaté",
-      "d) Campaña de las Cordilleras"
+      "a) Formación de heces",
+      "b) Absorción de nutrientes",
+      "c) Producción de bilis",
+      "d) Producción de enzimas digestivas",
+      "e) Excreción de desechos"
     ],
-    correctAnswer: 3
+    correctAnswer: 0
   }
 ];
-
-
-//################################################################
-//Respuestas
-/*
-var respuestas = [
-  {
-    id: 1,
-    contenido: "¿Cuál fue la mayor guerra de la historia de América Latina? Respuesta correcta: b) Guerra de la Triple Alianza"
-  },
-  {
-    id: 2,
-    contenido: "¿Cuáles fueron los países que formaron la Triple Alianza en la guerra? Respuesta correcta: b) Brasil, Argentina y Uruguay"
-  },
-  {
-    id: 3,
-    contenido: "¿Cuál fue el país que invadió Uruguay en el conflicto? Respuesta correcta: c) Brasil"
-  },
-  {
-    id: 4,
-    contenido: "¿Cuál fue la batalla más importante de la guerra de la Triple Alianza? Respuesta correcta: c) Batalla de Tuyutí"
-  },
-  {
-    id: 5,
-    contenido: "¿Cuál fue la última campaña de la guerra, donde los brasileños atacaron la retaguardia paraguaya? Respuesta correcta: d) Campaña de las Cordilleras"
-  }
-];
-var respuestas = [
-  {
-    id: 1,
-    contenido: questions[0].question + " Respuesta correcta: " + questions[0].options[questions[0].correctAnswer]
-  },
-  {
-    id: 2,
-    contenido: questions[1].question + " Respuesta correcta: " + questions[1].options[questions[1].correctAnswer]
-  },
-  {
-    id: 3,
-    contenido: questions[2].question + " Respuesta correcta: " + questions[2].options[questions[2].correctAnswer]
-  },
-  {
-    id: 4,
-    contenido: questions[3].question + " Respuesta correcta: " + questions[3].options[questions[3].correctAnswer]
-  },
-  {
-    id: 5,
-    contenido: questions[4].question + " Respuesta correcta: " + questions[4].options[questions[4].correctAnswer]
-  }
-];*/
-
 
 //################################################################
 //Botones de navegacion

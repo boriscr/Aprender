@@ -1,64 +1,63 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La Revolución Industrial";
+document.getElementById("name-title").textContent = "Diferencias entre virus ☣, bacterias 🦠y hongos 🍄";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/3LQAnFEADl4"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/Gs-qktH1C8Q"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Dónde tuvo lugar la Revolución Industrial?",
+    question: "¿Cuáles son los tres tipos de microorganismos mencionados en el video?",
     options: [
-      "a) Estados Unidos",
-      "b) Inglaterra",
-      "c) Francia",
-      "d) España"
+      "a) Bacterias, ongos y virus",
+      "b) Virus, hongos y bacterias",
+      "c) Hongos, insectos y virus",
+      "d) Hongos, celulas y virus"
     ],
-    correctAnswer: 1
+    correctAnswer: 1 // La respuesta correcta es la opción b) Virus, hongos y bacterias
   },
   {
-    question: "¿Cuál fue el principal avance tecnológico de la Revolución Industrial?",
+    question: "¿Cuál de los siguientes microorganismos puede sobrevivir sin vivir dentro de otro organismo?",
     options: [
-      "a) Máquina de vapor",
-      "b) Lámpara de gas",
-      "c) Ferrocarril",
-      "d) Barco de vapor"
+      "a) Bacterias",
+      "b) Virus",
+      "c) Hongos",
+      "d) Ninguno de ellos"
     ],
-    correctAnswer: 0
+    correctAnswer: 2 // La respuesta correcta es la opción c) Hongos
   },
   {
-    question: "¿Qué clase social se benefició principalmente de la Revolución Industrial?",
+    question: "¿Cuál de los siguientes microorganismos es considerado una partícula infecciosa?",
     options: [
-      "a) Aristocracia terrateniente",
-      "b) Proletariado",
-      "c) Burguesía",
-      "d) Súbditos convertidos en ciudadanos"
+      "a) Virus",
+      "b) Bacterias",
+      "c) Hongos",
+      "d) Ninguno de ellos"
     ],
-    correctAnswer: 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) Virus
   },
   {
-    question: "¿Cuál fue la consecuencia demográfica de la Revolución Industrial en Inglaterra?",
+    question: "¿Cuál de los siguientes microorganismos puede reproducirse tanto sexual como asexualmente?",
     options: [
-      "a) Reducción de la población",
-      "b) Estancamiento demográfico",
-      "c) Duplicación de la población",
-      "d) Emigración masiva"
+      "a) Hongos",
+      "b) Bacterias",
+      "c) Virus",
+      "d) Ninguno de ellos"
     ],
-    correctAnswer: 2
+    correctAnswer: 3 // La respuesta correcta es la opción d) Ninguno de ellos
   },
   {
-    question: "¿Qué sector se vio beneficiado por la aplicación del vapor en la Revolución Industrial?",
+    question: "¿Cuál de los siguientes microorganismos nos afecta principalmente por sus metabolitos?",
     options: [
-      "a) Agricultura",
-      "b) Minería",
-      "c) Industria textil",
-      "d) Construcción"
+      "a) Bacterias",
+      "b) Virus",
+      "c) Hongos",
+      "d) Ninguno de ellos"
     ],
-    correctAnswer: 2
+    correctAnswer: 2 // La respuesta correcta es la opción c) Hongos
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

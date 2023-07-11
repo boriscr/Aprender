@@ -1,63 +1,64 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La SEGUNDA GUERRA MUNDIAL";
+document.getElementById("name-title").textContent = "Darwin y la evolución";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/sRi0bCjnMFs"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/QEDQfqB8_lE"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál fue el origen de la Segunda Guerra Mundial?",
+    question: "¿Quién es considerado como la figura más destacada en el tema de la evolución?",
     options: [
-      "a) La invasión de Polonia por parte de Alemania",
-      "b) El ataque a Pearl Harbor",
-      "c) El bombardeo de Hiroshima y Nagasaki",
-      "d) La firma del Tratado de Versalles"
+      "a) Charles Darwin",
+      "b) Albert Einstein",
+      "c) Isaac Newton",
+      "d) Marie Curie"
     ],
-    correctAnswer: 0,
+    correctAnswer: 0 // Respuesta correcta: a) Charles Darwin
   },
   {
-    question: "¿Qué país lideró las potencias del Eje durante la Segunda Guerra Mundial?",
+    question: "¿Qué proceso es la base de todo cambio evolutivo y el mecanismo con el que la naturaleza selecciona a los seres vivos que logran sobrevivir y reproducirse?",
     options: [
-      "a) Alemania",
-      "b) Estados Unidos",
-      "c) Francia",
-      "d) Italia"
+      "a) Mutaciones genéticas",
+      "b) Selección artificial",
+      "c) Selección natural",
+      "d) Herencia genética"
     ],
-    correctAnswer: 0,
+    correctAnswer: 2 // Respuesta correcta: c) Selección natural
   },
   {
-    question: "¿Cuál fue la estrategia utilizada por Alemania en la conquista de Francia?",
+    question: "¿En qué archipiélago Charles Darwin encontró diferencias y similitudes en un grupo de pequeñas aves terrestres que luego se convertirían en icono de evolución?",
     options: [
-      "a) Guerra relámpago",
-      "b) Guerra de trincheras",
-      "c) Guerra de guerrillas",
-      "d) Guerra naval"
+      "a) Islas Malvinas",
+      "b) Islas Galápagos",
+      "c) Islas Canarias",
+      "d) Islas Baleares"
     ],
-    correctAnswer: 0,
+    correctAnswer: 1 // Respuesta correcta: b) Islas Galápagos
   },
   {
-    question: "¿Cuál fue el resultado de la Batalla de Inglaterra?",
+    question: "Según la teoría de Charles Darwin, ¿qué determina qué individuos logran sobrevivir y reproducirse dejando descendientes con características similares?",
     options: [
-      "a) Victoria de Alemania",
-      "b) Victoria de Estados Unidos",
-      "c) Victoria de Inglaterra",
-      "d) Empate"
+      "a) Mutaciones aleatorias",
+      "b) Selección artificial",
+      "c) Adaptación al medio ambiente",
+      "d) Selección natural"
     ],
-    correctAnswer: 2,
+    correctAnswer: 3 // Respuesta correcta: d) Selección natural
   },
   {
-    question: "¿Cuál fue el objetivo principal de la Operación Barbarroja?",
+    question: "¿Qué nos mostró la teoría de la evolución de Charles Darwin sobre el ser humano?",
     options: [
-      "a) Conquistar Italia",
-      "b) Invadir Inglaterra",
-      "c) Conquistar la Unión Soviética",
-      "d) Liberar Francia"
+      "a) Somos la especie más inteligente del planeta",
+      "b) Somos una especie más entre las muchas que evolucionan",
+      "c) Somos descendientes directos de los dinosaurios",
+      "d) Somos seres inmutables sin evolución"
     ],
-    correctAnswer: 2,
+    correctAnswer: 1 // Respuesta correcta: b) Somos una especie más entre las muchas que evolucionan
   }
 ];
+
 
 //################################################################
 //Botones de navegacion

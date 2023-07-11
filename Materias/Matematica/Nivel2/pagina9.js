@@ -1,64 +1,63 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "La Revolución Industrial";
+document.getElementById("name-title").textContent = "TABLA DE FRECUENCIAS";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/3LQAnFEADl4"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/JtB2w0QLRZ4"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Dónde tuvo lugar la Revolución Industrial?",
+    question: "¿Qué es la distribución de frecuencias o tabla de frecuencias?",
     options: [
-      "a) Estados Unidos",
-      "b) Inglaterra",
-      "c) Francia",
-      "d) España"
+      "a) La organización en forma de tabla de los datos estadísticos.",
+      "b) La representación gráfica de los datos estadísticos.",
+      "c) La suma de los datos estadísticos.",
+      "d) La frecuencia con la que se repiten los datos estadísticos."
     ],
-    correctAnswer: 1
+    correctAnswer: 0 // La respuesta correcta es la opción a) La organización en forma de tabla de los datos estadísticos.
   },
   {
-    question: "¿Cuál fue el principal avance tecnológico de la Revolución Industrial?",
+    question: "¿Qué representa la letra x en la tabla de frecuencias?",
     options: [
-      "a) Máquina de vapor",
-      "b) Lámpara de gas",
-      "c) Ferrocarril",
-      "d) Barco de vapor"
+      "a) La frecuencia absoluta.",
+      "b) La edad de los alumnos.",
+      "c) El número total de datos.",
+      "d) La frecuencia relativa."
     ],
-    correctAnswer: 0
+    correctAnswer: 1 // La respuesta correcta es la opción b) La edad de los alumnos.
   },
   {
-    question: "¿Qué clase social se benefició principalmente de la Revolución Industrial?",
+    question: "¿Qué representa la letra f en la tabla de frecuencias?",
     options: [
-      "a) Aristocracia terrateniente",
-      "b) Proletariado",
-      "c) Burguesía",
-      "d) Súbditos convertidos en ciudadanos"
+      "a) La frecuencia absoluta.",
+      "b) La edad de los alumnos.",
+      "c) El número total de datos.",
+      "d) La frecuencia relativa."
     ],
-    correctAnswer: 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) La frecuencia absoluta.
   },
   {
-    question: "¿Cuál fue la consecuencia demográfica de la Revolución Industrial en Inglaterra?",
+    question: "¿Cómo se calcula la frecuencia relativa?",
     options: [
-      "a) Reducción de la población",
-      "b) Estancamiento demográfico",
-      "c) Duplicación de la población",
-      "d) Emigración masiva"
+      "a) Dividiendo la frecuencia absoluta entre el número total de datos.",
+      "b) Sumando todas las frecuencias absolutas.",
+      "c) Multiplicando la frecuencia absoluta por 100.",
+      "d) No se menciona en el video."
     ],
-    correctAnswer: 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) Dividiendo la frecuencia absoluta entre el número total de datos.
   },
   {
-    question: "¿Qué sector se vio beneficiado por la aplicación del vapor en la Revolución Industrial?",
+    question: "¿Qué representa la letra F en la tabla de frecuencias?",
     options: [
-      "a) Agricultura",
-      "b) Minería",
-      "c) Industria textil",
-      "d) Construcción"
+      "a) La frecuencia absoluta.",
+      "b) La edad de los alumnos.",
+      "c) El número total de datos.",
+      "d) La frecuencia relativa acumulada."
     ],
-    correctAnswer: 2
+    correctAnswer: 3 // La respuesta correcta es la opción d) La frecuencia relativa acumulada.
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

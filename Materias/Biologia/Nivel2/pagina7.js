@@ -1,62 +1,62 @@
 document.getElementById("level").textContent = "Nivel 2";
-document.getElementById("name-title").textContent = "Manuel Belgrano";
+document.getElementById("name-title").textContent = "¿QUÉ ES LA BIODIVERSIDAD?";
 // Selecciona el elemento donde se desea insertar
 var container = document.getElementById('video-container'); 
 // Insertar el elemento 
-container.innerHTML = ' <iframe src="https://www.youtube.com/embed/NgzripRk6C0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
+container.innerHTML = ' <iframe src="https://www.youtube.com/embed/vQg_8s4LDHc"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'; 
 
 //Preguntas
 const questions = [
   {
-    question: "¿Cuál de las siguientes afirmaciones sobre Manuel Belgrano no es correcta?",
+    question: "¿Qué es la biodiversidad?",
     options: [
-      "Presenció con sus propios ojos la Revolución Francesa.",
-      "Luchó contra los ingleses en la invasión a Buenos Aires en 1806.",
-      "Luchó junto a San Martín en la Batalla de Chacabuco.",
-      "No se sabe con exactitud quién las vio y documentó por primera vez.",
+      "a) La concentración de especies en lugares específicos",
+      "b) La variedad de vida en nuestro planeta",
+      "c) La cantidad total de especies descubiertas",
+      "d) La diversidad genética dentro de una especie"
     ],
-    correctAnswer: 2,
+    correctAnswer: 1 // La respuesta correcta es la opción b) La variedad de vida en nuestro planeta
   },
   {
-    question: "¿En qué año nació Manuel Belgrano?",
+    question: "¿Cuántas especies se estima que aún no han sido descubiertas?",
     options: [
-      "1770",
-      "1789",
-      "1793",
-      "1810",
+      "a) 86% de las especies",
+      "b) 50% de las especies",
+      "c) 25% de las especies",
+      "d) 10% de las especies"
     ],
-    correctAnswer: 0,
+    correctAnswer: 0 // La respuesta correcta es la opción a) 86% de las especies
   },
   {
-    question: "¿En qué país presenció Manuel Belgrano la Revolución Francesa?",
+    question: "¿Cuál es uno de los beneficios de la biodiversidad para los ecosistemas?",
     options: [
-      "España",
-      "Inglaterra",
-      "Perú",
-      "Francia",
+      "a) Regulación del clima",
+      "b) Aumento de la contaminación",
+      "c) Disminución de la productividad",
+      "d) Pérdida de hábitats naturales"
     ],
-    correctAnswer: 3,
+    correctAnswer: 0 // La respuesta correcta es la opción a) Regulación del clima
   },
   {
-    question: "¿Qué cargo ocupó Manuel Belgrano en la Primera Junta de Gobierno de Buenos Aires?",
+    question: "¿Qué son los 'puntos calientes de la biodiversidad'?",
     options: [
-      "Vocal",
-      "Secretario",
-      "Presidente",
-      "General en Jefe",
+      "a) Lugares con una gran concentración de especies",
+      "b) Espacios naturales protegidos",
+      "c) Áreas afectadas por el cambio climático",
+      "d) Regiones con una baja diversidad de vida"
     ],
-    correctAnswer: 0,
+    correctAnswer: 0 // La respuesta correcta es la opción a) Lugares con una gran concentración de especies
   },
   {
-    question: "¿Cuál fue la causa de la muerte de Manuel Belgrano?",
+    question: "¿Cuáles son algunas de las principales amenazas para la biodiversidad?",
     options: [
-      "Enfermedad",
-      "Herida de guerra",
-      "Pobreza",
-      "Asesinato",
+      "a) Promoción del cambio climático",
+      "b) Protección de los ecosistemas naturales",
+      "c) Conservación de los puntos calientes",
+      "d) Pérdida de hábitats y especies foráneas"
     ],
-    correctAnswer: 0,
-  },
+    correctAnswer: 3 // La respuesta correcta es la opción d) Pérdida de hábitats y especies foráneas
+  }
 ];
 
 //################################################################
