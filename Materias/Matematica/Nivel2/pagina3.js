@@ -8,14 +8,14 @@ container.innerHTML = ' <iframe src="https://www.youtube.com/embed/staL7w-eT58" 
 //Preguntas
 const questions = [
   {
-    question: "¿Quién es considerado el padre de la geometría?",
+    question: "¿Quién era considerado uno de los 7 sabios de Grecia?",
     options: [
       "a) Heródoto",
       "b) Euclides",
       "c) Tales de Mileto",
       "d) René Descartes"
     ],
-    correctAnswer: 1 // La respuesta correcta es la opción b) Euclides
+    correctAnswer: 2 // La respuesta correcta es la opción c) Tales de Mileto
   },
   {
     question: "¿Qué son los triángulos semejantes?",

@@ -23,9 +23,10 @@ const questions = [
       "a) En la construcción de puentes",
       "b) En el diseño de páginas web",
       "c) En el desarrollo de tecnologías",
-      "d) En la educación de los niños"
+      "d) En la educación de los niños",
+      "e) Todas las anteriores "
     ],
-    correctAnswer: 0 // La respuesta correcta es la opción a) En la construcción de puentes.
+    correctAnswer: 4 // La respuesta correcta es la opción a) En la construcción de puentes.
   },
   {
     question: "¿Para qué se utilizan las matemáticas en la vida particular?",
@@ -48,7 +49,7 @@ const questions = [
     correctAnswer: 0 // La respuesta correcta es la opción a) El conocimiento de algoritmos.
   },
   {
-    question: "¿Cuál es la conclusión sobre las matemáticas según el texto?",
+    question: "¿Cuál es la conclusión sobre las matemáticas según el video?",
     options: [
       "a) Son una ciencia inútil en la vida diaria.",
       "b) Son solo aplicables en la educación.",
