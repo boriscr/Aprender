@@ -45,7 +45,7 @@ const questions = [
       "c) La Puna",
       "d) Las Yungas"
     ],
-    correctAnswer: 1
+    correctAnswer: 3
   },
   {
     question: "¿Cuál es la capital de la provincia de Jujuy?",

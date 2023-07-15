@@ -10,55 +10,50 @@ const questions = [
   {
     question: "¿Cuál es la capital de Malasia?",
     options: [
-      "Kuala Lumpur",
-      "Hanoi",
-      "Bangkok",
-      "Yakarta",
-      "Singapur"
+      "a) Kuala Lumpur",
+      "b) Hanoi",
+      "c) Bangkok",
+      "d) Yakarta"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál es la capital de Jordania?",
     options: [
-      "Damasco",
-      "Teherán",
-      "Amman",
-      "Riyadh",
-      "Mascate"
+      "a) Damasco",
+      "b) Teherán",
+      "c) Amman",
+      "d) Riyadh"
     ],
     correctAnswer: 2
   },
   {
     question: "¿Cuál es la capital de Tailandia?",
     options: [
-      "Dili",
-      "Hanoi",
-      "Bangkok",
-      "Phnom Penh",
-      "Colombo"
+      "a) Dili",
+      "b) Hanoi",
+      "c) Bangkok",
+      "d) Phnom Penh"
     ],
     correctAnswer: 2
   },
   {
     question: "¿Cuál es la capital de India?",
     options: [
-      "Islamabad",
-      "Katmandú",
-      "Nueva Delhi",
-      "Mumbai",
-      "Kabul"
+      "a) Islamabad",
+      "b) Katmandú",
+      "c) Nueva Delhi",
+      "d) Mumbai"
     ],
     correctAnswer: 2
   },
   {
     question: "¿Cuál es la capital de Corea del Sur?",
     options: [
-      "Seúl",
-      "Pyongyang",
-      "Tokio",
-      "Beijing",
-      "Taipei"
+      "a) Seúl",
+      "b) Pyongyang",
+      "c) Tokio",
+      "d) Beijing"
     ],
     correctAnswer: 0
   }

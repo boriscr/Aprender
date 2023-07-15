@@ -15,7 +15,7 @@ const questions = [
       "c) Tales de Mileto",
       "d) René Descartes"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) Tales de Mileto
+    correctAnswer: 1 // La respuesta correcta es la opción b) Euclides
   },
   {
     question: "¿Qué son los triángulos semejantes?",

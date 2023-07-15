@@ -10,55 +10,55 @@ const questions = [
   {
     question: "¿Cuál es el tipo de relieve que se forma en las zonas más altas de América?",
     options: [
-      "Montañas",
-      "Mesetas",
-      "Llanuras",
-      "Volcanes",
-      "Cañones"
+      "a) Montañas",
+      "b) Mesetas",
+      "c) Llanuras",
+      "d) Volcanes",
+      "e) Cañones"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Qué son los procesos endógenos en la formación del relieve?",
     options: [
-      "Procesos atmosféricos",
-      "Procesos químicos",
-      "Procesos internos del planeta",
-      "Procesos erosivos",
-      "Procesos de sedimentación"
+      "a) Procesos atmosféricos",
+      "b) Procesos químicos",
+      "c) Procesos internos del planeta",
+      "d) Procesos erosivos",
+      "e) Procesos de sedimentación"
     ],
     correctAnswer: 2
   },
   {
     question: "¿Qué ocurre en los bordes convergentes de las placas tectónicas?",
     options: [
-      "Las placas se separan",
-      "Las placas se rozan",
-      "Las placas se desplazan lateralmente",
-      "Las placas se estabilizan",
-      "Las placas se hunden"
+      "a) Las placas se separan",
+      "b) Las placas se rozan",
+      "c) Las placas se desplazan lateralmente",
+      "d) Las placas se estabilizan",
+      "e) Las placas se hunden"
     ],
     correctAnswer: 1
   },
   {
     question: "¿Cuál es uno de los agentes atmosféricos que actúan en los procesos exógenos del relieve?",
     options: [
-      "Viento",
-      "Luz solar",
-      "Gravedad",
-      "Temperatura",
-      "Electricidad"
+      "a) Viento",
+      "b) Luz solar",
+      "c) Gravedad",
+      "d) Temperatura",
+      "e) Electricidad"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál es uno de los principales tipos de relieve en América?",
     options: [
-      "Montañas",
-      "Playas",
-      "Cañones",
-      "Volcanes",
-      "Cañadones"
+      "a) Montañas",
+      "b) Playas",
+      "c) Cañones",
+      "d) Volcanes",
+      "e) Cañadones"
     ],
     correctAnswer: 0
   }

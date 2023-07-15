@@ -35,7 +35,7 @@ const questions = [
       "c) 8",
       "d) 4"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) 8
+    correctAnswer: 1 // La respuesta correcta es la opción b) -4
   },
   {
     question: "¿Cuál es el resultado de la operación -4 x 3?",
@@ -55,7 +55,7 @@ const questions = [
       "c) -6",
       "d) 6"
     ],
-    correctAnswer: 1 // La respuesta correcta es la opción b) 2
+    correctAnswer: 0 // La respuesta correcta es la opción a) -2
   }
 ];
 

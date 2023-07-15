@@ -35,17 +35,17 @@ const questions = [
       "c) El signo de suma (+).",
       "d) El número 16."
     ],
-    correctAnswer: 0 // La respuesta correcta es la opción a) El número pi (π).
+    correctAnswer: 1 // La respuesta correcta es la opción a) El número pi (π).
   },
   {
     question: "En álgebra, ¿qué símbolo se utiliza comúnmente para representar la multiplicación?",
     options: [
-      "a) x",
+      "a) *",
       "b) +",
-      "c) -",
+      "c) x",
       "d) ÷"
     ],
-    correctAnswer: 0 // La respuesta correcta es la opción a) x
+    correctAnswer: 0 // La respuesta correcta es la opción a) *
   },
   {
     question: "¿Cuáles son los tipos de signos utilizados en álgebra?",

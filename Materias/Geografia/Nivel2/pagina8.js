@@ -10,60 +10,54 @@ const questions = [
   {
     question: "¿Cuál es la capital de Italia?",
     options: [
-      "Roma",
-      "Madrid",
-      "París",
-      "Berlín",
-      "Viena"
+      "a) Roma",
+      "b) Madrid",
+      "c) París",
+      "d) Berlín",
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál es la capital de España?",
     options: [
-      "Atenas",
-      "Madrid",
-      "Lisboa",
-      "Dublín",
-      "Roma"
+      "a) Atenas",
+      "b) Madrid",
+      "c) Lisboa",
+      "d) Dublín",
     ],
     correctAnswer: 1
   },
   {
     question: "¿Cuál es la capital de Alemania?",
     options: [
-      "Viena",
-      "París",
-      "Berlín",
-      "Budapest",
-      "Roma"
+      "a) Viena",
+      "b) París",
+      "c) Berlín",
+      "d) Budapest",
     ],
     correctAnswer: 2
   },
   {
     question: "¿Cuál es la capital de Francia?",
     options: [
-      "Roma",
-      "Londres",
-      "París",
-      "Berna",
-      "Madrid"
+      "a) Roma",
+      "b) Londres",
+      "c) París",
+      "d) Berna",
     ],
     correctAnswer: 2
   },
   {
     question: "¿Cuál es la capital de Turquía?",
     options: [
-      "Ankara",
-      "Moscú",
-      "Estocolmo",
-      "Atenas",
-      "Roma"
+      "a) Ankara",
+      "b) Moscú",
+      "c) Estocolmo",
+      "d) Atenas",
     ],
     correctAnswer: 0
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

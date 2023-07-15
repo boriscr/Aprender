@@ -10,55 +10,55 @@ const questions = [
   {
     question: "¿Qué tipo de relieve favorece la formación de rápidos, saltos y cascadas en los ríos de Argentina?",
     options: [
-      "Relieve con pendiente",
-      "Relieve llano",
-      "Relieve montañoso",
-      "Relieve mesetario",
-      "Relieve volcánico"
+      "a) Relieve con pendiente",
+      "b) Relieve llano",
+      "c) Relieve montañoso",
+      "d) Relieve mesetario",
+      "e) Relieve volcánico"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Qué es una cuenca hidrográfica?",
     options: [
-      "Un curso de agua principal",
-      "Un tipo de río",
-      "Una línea divisoria de aguas",
-      "Un área de superficie que aporta agua a un curso",
-      "Un sistema de represas"
+      "a) Un curso de agua principal",
+      "b) Un tipo de río",
+      "c) Una línea divisoria de aguas",
+      "d) Un área de superficie que aporta agua a un curso",
+      "e) Un sistema de represas"
     ],
     correctAnswer: 3
   },
   {
     question: "¿Qué sucede en el curso medio de un río?",
     options: [
-      "Se forman rápidos y cascadas",
-      "Se erosionan los sedimentos",
-      "Se depositan los sedimentos",
-      "Se forman meandros",
-      "Se produce la desembocadura"
+      "a) Se forman rápidos y cascadas",
+      "b) Se erosionan los sedimentos",
+      "c) Se depositan los sedimentos",
+      "d) Se forman meandros",
+      "e) Se produce la desembocadura"
     ],
     correctAnswer: 3
   },
   {
     question: "¿Qué tipo de cuenca hidrográfica predomina en Argentina?",
     options: [
-      "Cuenca exótica",
-      "Cuenca endorreica",
-      "Cuenca arreica",
-      "Cuenca pluvial",
-      "Cuenca sexorreica"
+      "a) Cuenca exótica",
+      "b) Cuenca endorreica",
+      "c) Cuenca arreica",
+      "d) Cuenca pluvial",
+      "e) Cuenca sexorreica"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál es la cuenca hídrica más grande de Argentina?",
     options: [
-      "Cuenca del Río Paraná",
-      "Cuenca del Río de la Plata",
-      "Cuenca del Río Uruguay",
-      "Cuenca del Río Paraguay",
-      "Cuenca del Río Colorado"
+      "a) Cuenca del Río Paraná",
+      "b) Cuenca del Río de la Plata",
+      "c) Cuenca del Río Uruguay",
+      "d) Cuenca del Río Paraguay",
+      "e) Cuenca del Río Colorado"
     ],
     correctAnswer: 1
   }

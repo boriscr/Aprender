@@ -18,12 +18,12 @@ const questions = [
     correctAnswer: 1 // La respuesta correcta es la opción b) Un símbolo matemático que representa una cantidad dada como una fracción en 100 partes iguales.
   },
   {
-    question: "¿Qué significa que el 80 por ciento de la población es feliz?",
+    question: "¿Qué significa que el 80% de la población es feliz?",
     options: [
       "a) Que 80 personas de cada 100 son felices.",
-      "b) Que el 80 por ciento de las personas son felices en promedio.",
+      "b) Que el 80% de las personas son felices en promedio.",
       "c) Que hay un total de 80 personas felices en la población.",
-      "d) Que el 80 por ciento de las personas tienen la capacidad de ser felices."
+      "d) Que el 80% de las personas tienen la capacidad de ser felices."
     ],
     correctAnswer: 0 // La respuesta correcta es la opción a) Que 80 personas de cada 100 son felices.
   },

@@ -10,46 +10,52 @@ const questions = [
   {
     question: "¿Cuál es la capital de Angola?",
     options: [
-      "Luanda",
-      "Argel",
-      "Porto Novo",
-      "Gaborone",
-      "Minsk"
+      "a) Luanda",
+      "b) Argel",
+      "c) Porto Novo",
+      "d) Gaborone"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál es la capital de Egipto?",
     options: [
-      "Luanda",
-      "Argel",
-      "Cairo",
-      "Asmara",
-      "Nicosia"
+      "a) Luanda",
+      "b) Argel",
+      "c) Cairo",
+      "d) Asmara"
     ],
     correctAnswer: 2
   },
   {
     question: "¿Cuál es la capital de Marruecos?",
     options: [
-      "Rabat",
-      "Bujumbura",
-      "Cairo",
-      "Accra",
-      "Lisboa"
+      "a) Rabat",
+      "b) Bujumbura",
+      "c) Cairo",
+      "d) Accra"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál es la capital de Nigeria?",
     options: [
-      "Luanda",
-      "Lagos",
-      "Accra",
-      "Abuja",
-      "Dakar"
+      "a) Luanda",
+      "b) Lagos",
+      "c) Accra",
+      "d) Abuja"
     ],
     correctAnswer: 3
+  },
+  {
+    question: "¿Cuál es la capital de Sudáfrica?",
+    options: [
+      "a) Luanda",
+      "b) Pretoria",
+      "c) Accra",
+      "d) Lisboa"
+    ],
+    correctAnswer: 1
   }
 ];
 

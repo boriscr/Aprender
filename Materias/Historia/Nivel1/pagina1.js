@@ -9,27 +9,27 @@ container.innerHTML = ' <iframe src="https://www.youtube.com/embed/XLYB-GRE6Fk" 
 var questions = [
     {
       question: "¿En que siglo se inició la conquista de América?",
-      options: ["XV", "XVI", "XIV", "XII"],
+      options: ["a) XV", "b) XVI", "c) XIV", "d) XII"],
       correctAnswer: 0
     },
     {
       question: "¿Quien inició la conquista de América?",
-      options: ["Napoleón Bonaparte", "Cristóbal Colón", "Alejandro Magno", "Simón Bolívar"],
+      options: ["a) Napoleón Bonaparte", "b) Cristóbal Colón", "c) Alejandro Magno", "d) Simón Bolívar"],
       correctAnswer: 1
     },
     {
       question: "Cristóbal Colón llegó por primera vez al continente americano en el año...",
-      options: ["1492", "1592", "1482", "1490"],
+      options: ["a) 1492", "b) 1592", "c) 1482", "d) 1490"],
       correctAnswer: 0
     },
     {
         question: "Conquista de Mexico:",
-        options: ["1518", "1815", "1519", "1515"],
+        options: ["a) 1518", "b) 1815", "c) 1519", "d) 1515"],
         correctAnswer: 2
       },
       {
-        question: "Conquista de Mexico:",
-        options: ["1518", "1815", "1519", "1515"],
+        question: "La ciudad del Dorado era:",
+        options: ["a) Ciudad Inca", "b) Ciudad de Azteca", "c) Ciudad hecha de oro", "d) Ninguna de las anteriores"],
         correctAnswer: 2
       },
     // Agregar más preguntas...

@@ -2,7 +2,7 @@
 var elementosHistoria = document.querySelectorAll('#historia');
 var elementosGeografia = document.querySelectorAll('#geografia');
 var elementosBiologia = document.querySelectorAll('#biologia');
-var elementosIngles = document.querySelectorAll('#ingles');
+var elementosLengua = document.querySelectorAll('#lengua');
 var elementosMatematica = document.querySelectorAll('#matematica');
 
 // Función para agregar las imágenes y los títulos
@@ -28,7 +28,7 @@ agregarImagenesYTitulos(elementosGeografia, 'https://images.vexels.com/media/use
 agregarImagenesYTitulos(elementosBiologia, 'https://img.freepik.com/iconos-gratis/hoja_318-541564.jpg?w=2000', 'Biologia');
 
 // Aplicar el código a los elementos de tecnología
-agregarImagenesYTitulos(elementosIngles, 'https://static.vecteezy.com/system/resources/previews/016/016/814/original/united-states-flag-free-png.png', 'Ingles');
+agregarImagenesYTitulos(elementosLengua, 'https://i0.wp.com/www.cristic.com/wp-content/uploads/2022/07/castellano.png?fit=500%2C500&ssl=1', 'Lengua');
 
 // Aplicar el código a los elementos de tecnología
 agregarImagenesYTitulos(elementosMatematica, 'https://cdn-icons-png.flaticon.com/512/2490/2490315.png', 'Matematicas');

@@ -10,50 +10,50 @@ const questions = [
   {
     question: "¿Cuál es el concepto que engloba a los países donde el español es la lengua materna?",
     options: [
-      "Hispanicamérica",
-      "Iberoamérica",
-      "Latinoamérica",
-      "Hispanoamérica"
+      "a) Hispanicamérica",
+      "b) Iberoamérica",
+      "c) Latinoamérica",
+      "d) Hispanoamérica"
     ],
     correctAnswer: 3
   },
   {
     question: "¿Qué territorio se destaca por tener las mejores playas del planeta, la selva más biodiversa y la red hidrográfica con mayor caudal del mundo?",
     options: [
-      "América del Norte",
-      "América Latina",
-      "Europa",
-      "Asia"
+      "a) América del Norte",
+      "b) América Latina",
+      "c) Europa",
+      "d) Asia"
     ],
     correctAnswer: 1
   },
   {
     question: "¿Qué término incluye a los países que tienen tanto el español como el portugués como idiomas oficiales?",
     options: [
-      "Hispanicamérica",
-      "Iberoamérica",
-      "Latinoamérica",
-      "Lusoamérica"
+      "a) Hispanicamérica",
+      "b) Iberoamérica",
+      "c) Latinoamérica",
+      "d) Lusoamérica"
     ],
     correctAnswer: 1
   },
   {
     question: "¿Cuál fue el origen del término 'América Latina'?",
     options: [
-      "Francia",
-      "Estados Unidos",
-      "España",
-      "Inglaterra"
+      "a) Francia",
+      "b) Estados Unidos",
+      "c) España",
+      "d) Inglaterra"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Qué país latinoamericano tiene las mayores reservas de petróleo del mundo?",
     options: [
-      "Venezuela",
-      "México",
-      "Brasil",
-      "Argentina"
+      "a) Venezuela",
+      "b) México",
+      "c) Brasil",
+      "d) Argentina"
     ],
     correctAnswer: 0
   }

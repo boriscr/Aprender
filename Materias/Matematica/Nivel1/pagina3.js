@@ -52,10 +52,10 @@ const questions = [
     options: [
       "a) 0.25",
       "b) 0.56666666667",
-      "c) π (pi)",
+      "c) 0.5",
       "d) √2"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) π (pi)
+    correctAnswer: 3 // La respuesta correcta es la opción d) √2
   }
 ];
 

@@ -10,55 +10,55 @@ const questions = [
   {
     question: "¿Cuál es la provincia de Argentina con capital en San Salvador de Jujuy?",
     options: [
-      "Salta",
-      "Formosa",
-      "Misiones",
-      "Jujuy",
-      "Corrientes"
+      "a) Salta",
+      "b) Formosa",
+      "c) Misiones",
+      "d) Jujuy",
+      "e) Corrientes"
     ],
     correctAnswer: 3
   },
   {
     question: "¿En qué provincia de Argentina se encuentra el Parque Nacional de Talampaya?",
     options: [
-      "Catamarca",
-      "La Rioja",
-      "San Juan",
-      "Córdoba",
-      "Santa Fe"
+      "a) Catamarca",
+      "b) La Rioja",
+      "c) San Juan",
+      "d) Córdoba",
+      "e) Santa Fe"
     ],
     correctAnswer: 1
   },
   {
     question: "¿Cuál es la capital de la provincia de Buenos Aires?",
     options: [
-      "Córdoba",
-      "La Plata",
-      "Rosario",
-      "Mendoza",
-      "Mar del Plata"
+      "a) Córdoba",
+      "b) La Plata",
+      "c) Rosario",
+      "d) Mendoza",
+      "e) Mar del Plata"
     ],
     correctAnswer: 1
   },
   {
     question: "¿Cuál es la ciudad Autónoma de Argentina y la más poblada del país?",
     options: [
-      "Rosario",
-      "Córdoba",
-      "Mendoza",
-      "La Plata",
-      "Buenos Aires"
+      "a) Rosario",
+      "b) Córdoba",
+      "c) Mendoza",
+      "d) La Plata",
+      "e) Buenos Aires"
     ],
     correctAnswer: 4
   },
   {
     question: "¿En qué provincia de Argentina se encuentra la montaña más alta de América, el Aconcagua?",
     options: [
-      "Chubut",
-      "Neuquén",
-      "Santa Cruz",
-      "Mendoza",
-      "Río Negro"
+      "a) Chubut",
+      "b) Neuquén",
+      "c) Santa Cruz",
+      "d) Mendoza",
+      "e) Río Negro"
     ],
     correctAnswer: 3
   }

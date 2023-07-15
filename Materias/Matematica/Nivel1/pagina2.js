@@ -28,14 +28,14 @@ const questions = [
     correctAnswer: 0 // La respuesta correcta es la opción a) En cuántas partes iguales se divide el entero
   },
   {
-    question: "¿Cuáles de las siguientes fracciones son fracciones decimales?",
+    question: "¿Cuáles de las siguientes  no son fracciones decimales?",
     options: [
       "a) Tres décimos",
       "b) Ocho centésimos",
       "c) Quince milésimas",
       "d) Diez enteros"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) Quince milésimas
+    correctAnswer: 3 // La respuesta correcta es la opción d) Diez enteros
   },
   {
     question: "¿Qué caracteriza a las fracciones decimales?",

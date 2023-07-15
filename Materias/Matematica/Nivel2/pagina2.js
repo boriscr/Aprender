@@ -43,9 +43,10 @@ const questions = [
       "a) Es utilizado para calcular el perímetro y área de los círculos.",
       "b) Es el número que representa la proporción entre la circunferencia y el diámetro de un círculo.",
       "c) Ayuda a establecer las relaciones entre puntos, líneas y ángulos en la geometría.",
-      "d) Es una constante que se utiliza para calcular el volumen de los sólidos geométricos."
+      "d) Es una constante que se utiliza para calcular el volumen de los sólidos geométricos.",
+      "e) Opcion a y b"
     ],
-    correctAnswer: 0 // La respuesta correcta es la opción a) Es utilizado para calcular el perímetro y área de los círculos.
+    correctAnswer: 4 // La respuesta correcta es la opción e) Opcion a y b
   },
   {
     question: "¿Cuál de las siguientes opciones NO es un tipo de geometría?",
