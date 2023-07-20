@@ -30,15 +30,15 @@ const questions = [
     correctAnswer: 0
   },
   {
-    question: "¿Cuál de los siguientes reinos utiliza la luz como fuente de energía pero no puede transformar la materia inorgánica en orgánica?",
+    question: "Utiliza la luz como fuente de energía y puede transformar la materia inorgánica en orgánica:",
     options: [
       "Reino de las plantas",
       "Reino de los hongos",
-      "Reino de los animales",
-      "Reino de las bacterias",
-      "Reino de los protistas"
+      "Fotoautótrofo",
+      "Heterótrofa",
+      "Autótrofa"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "¿Cuál de los siguientes reinos no puede utilizar la energía de la luz y obtiene la materia orgánica de otros seres vivos?",

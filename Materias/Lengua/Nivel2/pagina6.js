@@ -28,7 +28,7 @@ const questions = [
     correctAnswer: 1 // La respuesta correcta es la opción b) Organizar y estructurar el texto
   },
   {
-    question: "¿Qué se indica con la exclamación en el texto '¡Mira!'?",
+    question: "¿Qué se indica con la exclamación '¡Mira!'?",
     options: [
       "a) Sorpresa o énfasis",
       "b) Pregunta o duda",

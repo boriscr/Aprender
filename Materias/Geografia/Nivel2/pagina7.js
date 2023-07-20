@@ -31,11 +31,11 @@ const questions = [
     question: "¿Cuál es la región de la provincia de Jujuy conocida como la continuación hacia el este de la Quebrada y caracterizada por tener un clima subtropical y altas temperaturas en verano?",
     options: [
       "a) La Quebrada",
-      "b) Los Valles",
+      "b) Cochinoca",
       "c) La Puna",
       "d) Las Yungas"
     ],
-    correctAnswer: 1
+    correctAnswer: 3
   },
   {
     question: "¿Cuál es el nombre de la región de la provincia de Jujuy que se encuentra al sur de la Quebrada y constituye la región de mayor concentración de la población?",
@@ -45,7 +45,7 @@ const questions = [
       "c) La Puna",
       "d) Las Yungas"
     ],
-    correctAnswer: 3
+    correctAnswer: 1
   },
   {
     question: "¿Cuál es la capital de la provincia de Jujuy?",

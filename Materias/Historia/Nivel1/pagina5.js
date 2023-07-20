@@ -10,50 +10,50 @@ const questions = [
   {
     question: "¿Cuál fue la primera moneda de circulación masiva en Argentina?",
     options: [
-      "Peso moneda corriente",
-      "Peso fuerte",
-      "Peso ley 18.188",
-      "Austral"
+      "a) Peso moneda corriente",
+      "b) Peso fuerte",
+      "c) Peso ley 18.188",
+      "d) Austral"
     ],
     correctAnswer: 0
   },
   {
     question: "¿Cuál fue la moneda que estuvo vigente desde 1826 hasta 1881 en Argentina?",
     options: [
-      "Peso fuerte",
-      "Peso moneda corriente",
-      "Peso ley 18.188",
-      "Austral"
+      "a) Peso fuerte",
+      "b) Peso moneda corriente",
+      "c) Peso ley 18.188",
+      "d) Austral"
     ],
     correctAnswer: 1
   },
   {
     question: "¿Qué ley de unificación monetaria se sancionó durante la presidencia de Julio Argentino Roca?",
     options: [
-      "Ley 1130",
-      "Ley 2216",
-      "Ley 890",
-      "Ley 22.707"
+      "a) Ley 1130",
+      "b) Ley 2216",
+      "c) Ley 890",
+      "d) Ley 22.707"
     ],
     correctAnswer: 0
   },
   {
-    question: "¿Cuál fue el primer billete íntegramente impreso en Argentina?",
+    question: "¿Año del primer billete íntegramente impreso en Argentina?",
     options: [
-      "Peso moneda corriente",
-      "Austral",
-      "Peso ley 18.188",
-      "Peso argentino"
+      "a) 1951",
+      "b) 2001",
+      "c) 1888",
+      "d) 1883"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     question: "¿Cuál fue la moneda emitida en reemplazo del austral en 1991?",
     options: [
-      "Austral",
-      "Peso fuerte",
-      "Peso argentino",
-      "Peso"
+      "a) Austral",
+      "b) Peso fuerte",
+      "c) Peso argentino",
+      "d) Peso"
     ],
     correctAnswer: 2
   }

@@ -32,7 +32,7 @@ const questions = [
     options: [
       "a) Amar",
       "b) Caber",
-      "c) Saltar",
+      "c) Todas las anteriores",
       "d) Ninguna de las anteriores"
     ],
     correctAnswer: 0 // La respuesta correcta es la opción a) Amar

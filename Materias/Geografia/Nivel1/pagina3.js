@@ -31,7 +31,7 @@ const questions = [
     question: "¿Qué factores influyen en el tipo de clima de un lugar?",
     options: [
       "a) Presión y temperatura.",
-      "b) Altitud y vientos.",
+      "b) Altitud, latitud, distancia al mar, relieve y vientos.",
       "c) Latitud y estaciones del año.",
       "d) Humedad y precipitaciones."
     ],

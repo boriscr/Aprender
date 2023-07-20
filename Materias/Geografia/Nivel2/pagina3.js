@@ -27,7 +27,7 @@ const questions = [
       "d) Oro génesis",
       "e) Tectónica de placas"
     ],
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "¿Cuál es el relieve más extenso de Argentina?",
@@ -58,9 +58,9 @@ const questions = [
       "b) Gas",
       "c) Carbón",
       "d) Uranio",
-      "e) Energía eólica"
+      "e) Petróleo y Gas"
     ],
-    correctAnswer: 0
+    correctAnswer: 4
   }
 ];
 

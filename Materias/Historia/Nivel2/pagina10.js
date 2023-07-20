@@ -33,9 +33,10 @@ const questions = [
       "a) La nobleza y el clero",
       "b) Los campesinos y los obreros",
       "c) Los comerciantes y los banqueros",
-      "d) Los artistas y los intelectuales"
+      "d) Los artistas y los intelectuales",
+      "e) Opciones b, c y d"
     ],
-    correctAnswer: 2
+    correctAnswer: 4
   },
   {
     question: "¿Qué suceso marcó el inicio de la Revolución Francesa?",

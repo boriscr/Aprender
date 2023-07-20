@@ -40,9 +40,9 @@ const questions = [
   {
     question: "¿Cuáles son los pronombres personales tónicos de segunda persona?",
     options: [
-      "a) Tú y vosotros",
-      "b) Usted y ustedes",
-      "c) Tú y ustedes",
+      "a) Tú/Vos y yo",
+      "b) Usted y yo",
+      "c) Tú/Vos y ustedes",
       "d) Vosotros y ustedes"
     ],
     correctAnswer: 2 // La respuesta correcta es la opción c) Tú y ustedes

@@ -28,14 +28,14 @@ var questions = [
     correctAnswer: 0
   },
   {
-    question: "¿Quién lideró el ejército argentino durante la guerra de independencia?",
+    question: "¿Quién lideró el ejército de los Andes durante la guerra de independencia?",
     options: [
-      "a) José San Martín",
+      "a) José de San Martín",
       "b) Manuel Belgrano",
       "c) Martín Miguel de Güemes",
       "d) José Gervasio Artigas"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     question: "¿En qué año se declaró formalmente la independencia de Argentina?",
@@ -50,7 +50,7 @@ var questions = [
   {
     question: "¿Quién lideró el cruce de los Andes para liberar Chile y Perú?",
     options: [
-      "a) José San Martín",
+      "a) José de San Martín",
       "b) Manuel Belgrano",
       "c) Martín Miguel de Güemes",
       "d) José Gervasio Artigas"

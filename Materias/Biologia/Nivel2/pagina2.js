@@ -43,7 +43,7 @@ const questions = [
       "Arterias, venas y capilares.",
       "Venas, linfáticos y arteriolas.",
       "Arteriolas, venas y linfáticos.",
-      "Capilares, venas y arterias."
+      "Capilares y arterias."
     ],
     correctAnswer: 0
   },

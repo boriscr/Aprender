@@ -30,7 +30,7 @@ const questions = [
   {
     question: "¿Qué son las palabras agudas?",
     options: [
-      "a) Palabras que tienen el acento en la última sílaba y llevan tilde cuando terminan en ese vocal",
+      "a) Palabras que tienen el acento en la última sílaba y llevan tilde cuando terminan en esa vocal",
       "b) Palabras que tienen el acento en la penúltima sílaba y llevan tilde cuando terminan en consonante diferente de 'n' o vocal",
       "c) Palabras que tienen el acento en la antepenúltima sílaba y siempre llevan tilde",
       "d) Ninguna de las anteriores"

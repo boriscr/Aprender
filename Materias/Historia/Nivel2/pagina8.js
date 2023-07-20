@@ -10,57 +10,52 @@ const questions = [
   {
     question: "¿En qué provincia argentina nació José de San Martín?",
     options: [
-      "Corrientes",
-      "Buenos Aires",
-      "Mendoza",
-      "Córdoba",
-      "Santa Fe"
+      "a) Corrientes",
+      "b) Buenos Aires",
+      "c) Mendoza",
+      "d) Córdoba"
     ],
     correctAnswer: 0
   },
   {
     question: "¿En qué país realizó sus estudios José de San Martín?",
     options: [
-      "España",
-      "Francia",
-      "Portugal",
-      "Inglaterra",
-      "Italia"
+      "a) España",
+      "b) Francia",
+      "c) Portugal",
+      "d) Inglaterra"
     ],
     correctAnswer: 0
   },
   {
     question: "¿En qué batalla San Martín luchó al frente de los Granaderos a Caballo?",
     options: [
-      "Batalla de San Lorenzo",
-      "Batalla de Maipú",
-      "Batalla de Chacabuco",
-      "Batalla de Ayacucho",
-      "Batalla de Junín"
+      "a) Batalla de Maipú",
+      "b) Batalla de San Lorenzo",
+      "c) Batalla de Chacabuco",
+      "d) Batalla de Ayacucho"
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "¿Cuál era la visión de San Martín para América del Sur?",
     options: [
-      "Unión de todas las naciones latinoamericanas",
-      "Independencia solo para Argentina y Chile",
-      "Mantener el dominio español en la región",
-      "Anexar Sudamérica a España",
-      "Crear una confederación con Europa"
+      "a) Unión de todas las naciones latinoamericanas",
+      "b) Independencia solo para Argentina y Chile",
+      "c) Mantener el dominio español en la región",
+      "d) Anexar Sudamérica a España"
     ],
     correctAnswer: 0
   },
   {
     question: "¿En qué año falleció José de San Martín?",
     options: [
-      "1850",
-      "1810",
-      "1822",
-      "1848",
-      "1830"
+      "a) 1822",
+      "b) 1810",
+      "c) 1850",
+      "d) 1848"
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   }
 ];
 

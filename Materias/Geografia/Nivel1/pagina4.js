@@ -8,7 +8,7 @@ container.innerHTML = ' <iframe src="https://www.youtube.com/embed/dRjzjihvTpw" 
 //Preguntas
 const questions = [
   {
-    question: "Pregunta 1: ¿Qué actividades económicas se originan en el sector primario?",
+    question: "¿Qué actividades económicas se originan en el sector primario?",
     options: [
       "a) Industria y construcción.",
       "b) Agricultura, ganadería, pesca y minería.",
@@ -18,7 +18,7 @@ const questions = [
     correctAnswer: 1
   },
   {
-    question: "Pregunta 2: ¿En qué sector se transforman las materias primas en productos?",
+    question: "¿En qué sector se transforman las materias primas en productos?",
     options: [
       "a) Sector primario.",
       "b) Sector secundario.",
@@ -28,7 +28,7 @@ const questions = [
     correctAnswer: 1
   },
   {
-    question: "Pregunta 3: ¿Cuáles son ejemplos de actividades económicas terciarias?",
+    question: "¿Cuáles son ejemplos de actividades económicas terciarias?",
     options: [
       "a) Agricultura y ganadería.",
       "b) Industria y construcción.",
@@ -38,17 +38,17 @@ const questions = [
     correctAnswer: 2
   },
   {
-    question: "Pregunta 4: ¿Qué sector se encarga de la distribución y comercialización de productos elaborados?",
+    question: "¿Qué sector se encarga de la distribución y comercialización de productos elaborados?",
     options: [
       "a) Sector primario.",
       "b) Sector secundario.",
       "c) Sector terciario.",
-      "d) Sector comercial."
+      "d) Ninguna"
     ],
     correctAnswer: 2
   },
   {
-    question: "Pregunta 5: ¿Cuál de las siguientes opciones describe una actividad del sector secundario?",
+    question: "¿Cuál de las siguientes opciones describe una actividad del sector secundario?",
     options: [
       "a) Obtención de leche.",
       "b) Transformación de materias primas en productos.",

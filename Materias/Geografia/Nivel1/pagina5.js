@@ -27,7 +27,7 @@ const questions = [
       "d) Región Noroeste",
       "e) Región Cuyana"
     ],
-    correctAnswer: 1
+    correctAnswer: 4
   },
   {
     question: "¿Qué actividades económicas se encuentran en el sector terciario?",
@@ -35,10 +35,10 @@ const questions = [
       "a) Agricultura y ganadería",
       "b) Industria y construcción",
       "c) Transporte y turismo",
-      "d) Minería y pesca",
+      "d) Opcion c y e",
       "e) Educación y salud"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "¿En qué etapa del circuito productivo se transforman las materias primas en productos finales?",

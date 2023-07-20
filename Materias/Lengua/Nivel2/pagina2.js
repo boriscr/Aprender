@@ -25,7 +25,7 @@ const questions = [
       "c) La acción que ocurrirá en el futuro",
       "d) Todas las opciones anteriores son correctas"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) La acción que ocurrirá en el futuro
+    correctAnswer: 3 // La respuesta correcta es la opción d) Todas las opciones anteriores son correctas
   },
   {
     question: "En la oración 'Mi familia me organizó una fiesta sorpresa', ¿en qué tiempo verbal se encuentra el verbo 'organizó'?",

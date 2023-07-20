@@ -53,12 +53,11 @@ const questions = [
       "a) Agricultura",
       "b) Minería",
       "c) Industria textil",
-      "d) Construcción"
+      "d) Industria textil y Minería"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   }
 ];
-
 
 //################################################################
 //Botones de navegacion

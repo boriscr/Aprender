@@ -48,7 +48,7 @@ var questions = [
     correctAnswer: 2
   },
   {
-    question: "¿Cuál fue la última campaña de la guerra, donde los brasileños atacaron la retaguardia paraguaya?",
+    question: "¿Cuál fue la última campaña de la guerra, donde los brasileños atacaron a Paraguay?",
     options: [
       "a) Campaña de Humaitá",
       "b) Campaña de Corrientes",

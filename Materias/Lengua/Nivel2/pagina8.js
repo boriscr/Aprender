@@ -45,7 +45,7 @@ const questions = [
       "c) Poesía, poemas, hadas, etc.",
       "d) Todas las anteriores"
     ],
-    correctAnswer: 3 // La respuesta correcta es la opción d) Todas las anteriores
+    correctAnswer: 0 // La respuesta correcta es la opción d) Todas las anteriores
   },
   {
     question: "¿Cuál es la diferencia entre un pronombre personal tónico y un pronombre personal átono?",

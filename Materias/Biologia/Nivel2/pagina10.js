@@ -13,9 +13,9 @@ const questions = [
       "a) Medicina",
       "b) Alimentación",
       "c) Agricultura",
-      "d) Ninguna de las anteriores"
+      "d) Alimentación y Agricultura"
     ],
-    correctAnswer: 1 // La respuesta correcta es la opción b) Alimentación
+    correctAnswer: 3 // La respuesta correcta es la opción d) Alimentación y Agricultura
   },
   {
     question: "¿Cuál es uno de los ejemplos mencionados en el video de la aplicación de la ingeniería genética en el campo médico?",
@@ -53,9 +53,9 @@ const questions = [
       "a) Plantas que extraen nitrógeno del aire",
       "b) Cultivos con mayor resistencia a las inundaciones",
       "c) Frutas con más antioxidantes",
-      "d) Ninguna de las anteriores"
+      "d) Todas las anteriores"
     ],
-    correctAnswer: 0 // La respuesta correcta es la opción a) Plantas que extraen nitrógeno del aire
+    correctAnswer: 3 // La respuesta correcta es la opción d) Todas las anteriores
   }
 ];
 

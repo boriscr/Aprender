@@ -30,9 +30,9 @@ const questions = [
   {
     question: "¿Cuáles son los tipos de historias que un autor puede utilizar para contar la historia?",
     options: [
-      "a) Narrativa, pragmática y genética",
-      "b) Narrativa, pragmática y materialista",
-      "c) Narrativa, pragmática y ideológica",
+      "a) Narrativa, pragmática, materialista, ideológica y genética",
+      "b) Narrativa, pragmática",
+      "c) Narrativa, ideológica",
       "d) Ninguna de las anteriores"
     ],
     correctAnswer: 0 // La respuesta correcta es la opción a) Narrativa, pragmática y genética

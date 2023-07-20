@@ -22,10 +22,10 @@ const questions = [
     options: [
       "a) Bacterias",
       "b) Virus",
-      "c) Hongos",
+      "c) Hongos y virus",
       "d) Ninguno de ellos"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) Hongos
+    correctAnswer: 0 // La respuesta correcta es la opción a) Bacterias
   },
   {
     question: "¿Cuál de los siguientes microorganismos es considerado una partícula infecciosa?",
@@ -45,7 +45,7 @@ const questions = [
       "c) Virus",
       "d) Ninguno de ellos"
     ],
-    correctAnswer: 3 // La respuesta correcta es la opción d) Ninguno de ellos
+    correctAnswer: 0 // La respuesta correcta es la opción a) Hongos
   },
   {
     question: "¿Cuál de los siguientes microorganismos nos afecta principalmente por sus metabolitos?",
@@ -55,7 +55,7 @@ const questions = [
       "c) Hongos",
       "d) Ninguno de ellos"
     ],
-    correctAnswer: 2 // La respuesta correcta es la opción c) Hongos
+    correctAnswer: 0 // La respuesta correcta es la opción a) Bacterias
   }
 ];
 

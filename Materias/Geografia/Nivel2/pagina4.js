@@ -47,9 +47,9 @@ const questions = [
       "b) Cuenca endorreica",
       "c) Cuenca arreica",
       "d) Cuenca pluvial",
-      "e) Cuenca sexorreica"
+      "e) Cuenca exorreica"
     ],
-    correctAnswer: 0
+    correctAnswer: 4
   },
   {
     question: "¿Cuál es la cuenca hídrica más grande de Argentina?",
