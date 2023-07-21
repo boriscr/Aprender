@@ -4,6 +4,7 @@ var elementosGeografia = document.querySelectorAll('#geografia');
 var elementosBiologia = document.querySelectorAll('#biologia');
 var elementosLengua = document.querySelectorAll('#lengua');
 var elementosMatematica = document.querySelectorAll('#matematica');
+var elementosDownload = document.querySelectorAll('#download');
 
 // Función para agregar las imágenes y los títulos
 function agregarImagenesYTitulos(elementos, imgSrc, titulo) {
@@ -32,3 +33,5 @@ agregarImagenesYTitulos(elementosLengua, 'https://i0.wp.com/www.cristic.com/wp-c
 
 // Aplicar el código a los elementos de tecnología
 agregarImagenesYTitulos(elementosMatematica, 'https://cdn-icons-png.flaticon.com/512/2490/2490315.png', 'Matematicas');
+// Aplicar el código a los elementos de tecnología
+agregarImagenesYTitulos(elementosDownload, 'https://cdn.icon-icons.com/icons2/2235/PNG/512/android_os_logo_icon_134673.png', 'Descargar Apk');
