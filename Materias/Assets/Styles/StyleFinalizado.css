@@ -18,3 +18,11 @@ h6{
     font-size: 0.8em;
     font-family: 'Open Sans', sans-serif;
 }
+@media screen and (min-width: 920px) {
+    .containerImgFinal img{
+      width: 650px;
+    }
+    h5{
+        margin: 0% 3%;
+    }
+  }

@@ -47,3 +47,8 @@
   background-color: #7805fc;
   color: #ffffff;
   }
+  @media screen and (min-width: 920px) {
+    .btn-move-container{
+      padding: 10px;
+    }
+  }
